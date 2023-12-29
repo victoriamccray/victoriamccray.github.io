@@ -11,6 +11,8 @@ I earned my Bachelor of Science in Psychology (Honors) with a minor in Data Scie
 My research interests lie in computational methods and techniques in cognitive neuroscience and neuroimaging disciplines. I am currently a Masters of Science Candidate in Bioinformatics and have experience conducting data analysis, building computational pipelines, and providing advanced analytics. I have experience in data management, statistical analysis, and
 software development. I hope to contribute computational techniques that improve the efficacy of treatment in neuropsychiatric disorders. I have also dedicated my work to diversity and inclusion in the neuroscience field, and I have shown a record of awards and honors for my achievements and service.
 
+![CHART-LEVEL OF INTEREST AND EXPERIENCE TO DATE](assets/img/experience-chart.png)
+
 ### I am currently...
 
 - MSc Candidate in Bioinformatics
