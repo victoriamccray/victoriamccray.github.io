@@ -25,11 +25,33 @@ Black In Neuro collaborated with Society for Neuroscience (SfN) to provide a pro
 
 Professional Workshop Title: How I Survived Grad School: Perspectives from Black In Neuro
 
-*The workshop was attended in-person by 200+ individuals at SfN*
-![SfN Professional Development Attendees](assets/img/sfn-profdev.jpg)
-
 *The workshop was developed and facilitated by the Black In Neuro team*
 ![SfN Professional Development Attendees](assets/img/sfn-team-profdev.jpg)
 
+*The workshop was attended in-person by 200+ individuals at SfN*
+![SfN Professional Development Attendees](assets/img/sfn-profdev.jpg)
+
+
 Funders and Partners: Society for Neuroscience
+
+### Ernest E. Just Society
+
+With several other grassroots organizations dedicated to impacting black individuals in STEM fields (collectively known as BlackInX), Black In Neuro was honored at the Smithsonian National Museum of African American History and Culture in Washington D.C. on Sep. 16, 2023.
+
+Funders and Partners: United Negro College Fund, Ernest E. Just Society
+Awards: Black In Neuro organizers were awarded for Leadership and Service.
+
+## Learning and Brain Development Lab
+
+The Learning and Brain Development Lab (LBDL) investigates the development of value processing, motivation, and learning across the lifespan at Northeastern University. I completed my undergraduate honors thesis in the LBDL with Dr. Juliet Davidow, and I received the Paul and Grace Ward Martinez (‘48) Research Fellowship to support my research.
+
+My honors thesis leveraged a behavioral reward paradigm and functional magnetic resonance imaging (fMRI) data to assess reward sensitivity and functional connectivity of reward networks for individuals living with schizophrenia and comorbid cannabis use disorder. The study provided the experimental administration of cannabis to patient participants. Participants completed a behavioral reward task then a resting-state fMRI scan before and after cannabis use. 
+
+The open-source software for connectivity analyses, CONN, was developed by thesis second reader Dr. Susan Whitfield-Gabrieli and Neuroimaging Tools and Resources Collaboratory (NITRC). I presented the findings of my thesis at the Research, Innovation, and Scholarship Expo (RISE) in Boston, MA, USA.
+
+My work was awarded with the Avrom Aaron Level Memorial Award; pictured is Victoria (left) and Dr. Juliet Davidow (right)
+[PICTURE]
+
+Funders and Partners: Paul and Grace Ward Martinez, NITRC
+Awards: Avrom Aaron Leve Memorial Award
 
