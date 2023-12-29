@@ -29,7 +29,7 @@ Professional Workshop Title: How I Survived Grad School: Perspectives from Black
 ![SfN Professional Development Attendees](assets/img/sfn-team-profdev.jpg)
 
 *The workshop was attended in-person by 200+ individuals at SfN*
-![SfN Professional Development Attendees](assets/img/sfn-profdev.jpg)
+![SfN Professional Development Attendees](assets/img/sfn-prof-dev-attendees.jpg)
 
 
 Funders and Partners: Society for Neuroscience
@@ -56,3 +56,40 @@ The open-source software for connectivity analyses, CONN, was developed by thesi
 Funders and Partners: Paul and Grace Ward Martinez, NITRC
 Awards: Avrom Aaron Leve Memorial Award
 
+## Autodesk
+
+I worked as a contractor in Product Development and Manufacturing Solutions on the Experience Design Research team; my role was dedicated to improving user experience for design software products such as Inventor, Fusion, Vault, and more. I worked closely with user researchers, data analysts, data scientists, and cross-functional product teams. From my experience as an Analyst, I implemented statistical techniques to develop personalization for users.
+
+Inventor is a CAD software application used by mechanical engineers, product designers, and developers to build and automate 3D designs. For my role at Autodesk, I conducted user interviews to create new user personas. I created product usage analytics and custom dashboards to understand how users interact with the product. I also created insight reports to inform product planning and partnered with researchers and data analysts to inform the product roadmap of user perspectives. See one of my project approaches for the Inventor product below.
+
+**Requirements:**
+- Assess a change in loyalty metrics performance for Inventor
+- Provide insights to most prevalent reasons for the change
+  
+*I leveraged several methods to provide comprehensive insights*
+![Inventor Insights Approach](assets/img/inventor-approach.png)
+
+**Outcomes:**
+- Provided diagnostic analysis and recommendations to cross-functional product team
+- Informed strategic initiatives and product roadmap planning
+- Partnered with product team to assess feature gaps
+
+For my role with Autodesk, I also attended the OOUX Workshop with other subject matter experts and cross-functional teams in order to build user-driven, object-oriented, solutions for innovation within the organization. The workshop was held in Boston, MA, USA.
+
+## Insulet
+
+In 2021, Insulet launched the automated insulin mobile delivery system and application, Omnipod 5 to integrate with glucose monitors and the delivery system.
+
+For my co-op as a user experience researcher with Insulet, I conducted formative and summative research with the expertise of the UX Research team dedicated to the automated insulin delivery experience for folks with Type I and Type II Diabetes. I was able to collaborate with human factors engineers to test usability of the wearable medical device using the Omnipod 5 automated insulin mobile application for delivery. During my time, I also helped establish the practice of usability metrics including ease of use, satisfaction, success rate and time on task to build product recommendations.
+
+**Requirements:**
+- Implement usability metrics to assess the success of prototypes
+- Provide recommendations to the cross-functional team including designers, engineers, and clinical teams
+
+  
+**Outcomes:**
+- Provided understanding of the acceptability of applications among users with lived experience of Type I and Type II diabetes
+- Contributed to the successful launch of a system integrated with multiple external medical devices
+- Communicated team findings to a wide organizational audience and strengthened trust in user research
+
+Tools: Qualtrics, UserZoom
