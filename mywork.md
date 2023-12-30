@@ -61,7 +61,7 @@ My honors thesis leveraged a behavioral reward paradigm and functional magnetic 
 The open-source software for connectivity analyses, CONN, was developed by thesis second reader Dr. Susan Whitfield-Gabrieli and Neuroimaging Tools and Resources Collaboratory (NITRC). I presented the findings of my thesis at the Research, Innovation, and Scholarship Expo (RISE) in Boston, MA, USA.
 
 
-*My work was awarded with the Avrom Aaron Level Memorial Award; pictured is Victoria (left) and Dr. Juliet Davidow (right)*
+*My work was awarded with the Avrom Aaron Level Memorial Award; pictured is myself, Victoria (left) and Dr. Juliet Davidow (right)*
 ![Award Ceremony for the Dept of Psychology](assets/img/avrom-aaron-julietvic.jpeg)
 
 Funding and Partners: Paul and Grace Ward Martinez, NITRC
