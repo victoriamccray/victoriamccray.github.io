@@ -86,6 +86,8 @@ Inventor is a CAD software application used by mechanical engineers, product des
 
 For my role with Autodesk, I also attended the OOUX Workshop with other subject matter experts and cross-functional teams in order to build user-driven, object-oriented, solutions for innovation within the organization. The workshop was held in Boston, MA, USA.
 
+Tools: Qualtrics XM, Looker, SQL
+
 ## Insulet
 
 In 2021, Insulet launched the automated insulin mobile delivery system and application, Omnipod 5 to integrate with glucose monitors and the delivery system.
