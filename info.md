@@ -8,7 +8,7 @@ Please feel free to reach out if you would like to discuss any of the following 
 - Careers and jobs
 - Consulting
 - Reviews
-- Partnership
+- Collaborations and Partnerships
 - Mentorship
 
 ## Frequently Asked Questions
