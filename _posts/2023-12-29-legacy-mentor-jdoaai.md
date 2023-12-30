@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Service Update: Mentor to Undergrads
+title: Service and Mentorship Update
 subtitle: Legacy Mentor at the John D. O’Bryant African American Institute
 gh-repo: victoriamccray
 tags: [mentorship, service]
