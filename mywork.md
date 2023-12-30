@@ -45,7 +45,7 @@ With several other grassroots organizations dedicated to impacting black individ
 
 Funding and Partners: United Negro College Fund, Ernest E. Just Society
 
-Awards: Black In Neuro organizers were awarded for Leadership and Service.
+Awards: Black In Neuro was awarded for Leadership and Service
 
 ## Learning and Brain Development Lab
 
@@ -60,6 +60,7 @@ The open-source software for connectivity analyses, CONN, was developed by thesi
 ![Award Ceremony for the Dept of Psychology](assets/img/avrom-aaron-julietvic.jpeg)
 
 Funding and Partners: Paul and Grace Ward Martinez, NITRC
+
 Awards: Avrom Aaron Leve Memorial Award
 
 ## Autodesk
