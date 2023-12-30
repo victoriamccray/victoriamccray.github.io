@@ -32,13 +32,23 @@ Professional Workshop Title: How I Survived Grad School: Perspectives from Black
 ![SfN Professional Development Attendees](assets/img/sfn-prof-dev-attendees.jpg)
 
 
-Funders and Partners: Society for Neuroscience
+Funding and Partners: Society for Neuroscience
 
 ### Ernest E. Just Society
 
 With several other grassroots organizations dedicated to impacting black individuals in STEM fields (collectively known as BlackInX), Black In Neuro was honored at the Smithsonian National Museum of African American History and Culture in Washington D.C. on Sep. 16, 2023.
 
-Funders and Partners: United Negro College Fund, Ernest E. Just Society
+*I joined the planning committee meeting for the inaugural EE Just Conference along with other Leadership representatives from Black In Neuro*
+![E.E. Just Steering Committee](assets/img/eejust-steering.jpeg)
+![E.E. Just Steering Committee](assets/img/bin-team-smithsonian.jpeg)
+
+*Black In Neuro was honored at the Smithsonian in Washington, D.C., USA*
+![E.E. Just Steering Committee](assets/img/eejust-group.jpeg)
+![E.E. Just Steering Committee](assets/img/eejust-ceremony.jpeg)
+
+
+Funding and Partners: United Negro College Fund, Ernest E. Just Society
+
 Awards: Black In Neuro organizers were awarded for Leadership and Service.
 
 ## Learning and Brain Development Lab
@@ -53,7 +63,7 @@ The open-source software for connectivity analyses, CONN, was developed by thesi
 *My work was awarded with the Avrom Aaron Level Memorial Award; pictured is Victoria (left) and Dr. Juliet Davidow (right)*
 ![Award Ceremony for the Dept of Psychology](assets/img/avrom-aaron-julietvic.jpeg)
 
-Funders and Partners: Paul and Grace Ward Martinez, NITRC
+Funding and Partners: Paul and Grace Ward Martinez, NITRC
 Awards: Avrom Aaron Leve Memorial Award
 
 ## Autodesk
