@@ -112,8 +112,13 @@ Research Assistant
 
 Tools: MATLAB
 
+
+
+
 Interdisciplinary Affective Science Lab
 Principal Investigator: Dr. Lisa Feldman-Barrett
+
+Research Assistant
 
 Tools: Mindware
 
