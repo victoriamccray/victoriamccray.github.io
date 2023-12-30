@@ -27,7 +27,7 @@ Software Developer
 - Programming of interfaces, data acquisition pipelines, or development of research tools (especially leveraging open-source technology and open data models)
 
 
-### Where are you at in your Master's program?
+### When do you finish your Master's program?
 
 I expect to complete my program and graduate with my MSc Spring 2025.
 
