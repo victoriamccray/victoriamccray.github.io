@@ -121,10 +121,9 @@ Principal Investigator: Dr. Lisa Feldman-Barrett
 Tools: Mindware
 
 ### D’Amore-McKim School of Business
-Digital, Analytics, Technology and Automation (DATA) Research Lab
-Principal Investigator: Yakov Bart
+Market Research Assistant, DATA (Digital, Analytics, Technology and Automation) Research Lab
 
-Market Research Assistant
+Principal Investigator: Yakov Bart
 
 Tools: Kantar, Excel
 
