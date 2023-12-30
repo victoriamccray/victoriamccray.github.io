@@ -24,10 +24,10 @@ navbar-links:
   My Work: "mywork"
   #Just for Fun: "justforfun"
   More Info: "info"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://victoriamccray.github.io/"
+  #Resources:
+    #- Beautiful Jekyll: "https://beautifuljekyll.com"
+    #- Learn markdown: "https://www.markdowntutorial.com/"
+  Home: "https://victoriamccray.github.io/"
 
 ################
 # --- Logo --- #
