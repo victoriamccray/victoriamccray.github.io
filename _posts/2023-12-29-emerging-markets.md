@@ -7,6 +7,6 @@ tags: [awards, open-source]
 
 ---
 
-I was awarded with the Srinivasan Award from the Center for Emerging Markets in order to facilitate the development of open-source research tools for neuroimaging and scientists facing technological and financial challenges internationally. The project will be a collaborative effort and will feature a hackathon for open-source solutions.
+I was awarded with the Srinivasan Award from the Center for Emerging Markets in order to develoo open-source research tools for neuroimaging scientists facing technological and financial challenges internationally. The project will be a collaborative effort and will feature a hackathon for open-source solutions.
 
 **Updates coming soon!**
