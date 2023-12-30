@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2023 Srinivasan Award Recipient
-subtitle: Thank you to the Center for Emerging Markets at Northeastern University!
+subtitle: Thank you to the Center for Emerging Markets, D'Amore-McKim School of Business at Northeastern University!
 gh-repo: victoriamccray
 tags: [awards, open-source]
 author: Victoria McCray
