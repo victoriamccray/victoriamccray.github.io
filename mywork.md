@@ -68,6 +68,8 @@ Funding and Partners: Paul and Grace Ward Martinez, NITRC
 
 Awards: Avrom Aaron Leve Memorial Award
 
+Tools: Python (Jupyter Notebooks, scikit-learn, matplotlib), R (EZ, R Studio, R Markdown)
+
 
 <h2 align="center">Autodesk</h2>
 
@@ -89,7 +91,7 @@ Inventor is a CAD software application used by mechanical engineers, product des
 
 For my role with Autodesk, I also attended the OOUX Workshop with other subject matter experts and cross-functional teams in order to build user-driven, object-oriented, solutions for innovation within the organization. The workshop was held in Boston, MA, USA.
 
-Tools: Qualtrics XM, Looker, SQL
+Tools: Qualtrics XM, Looker, SQL, Python
 
 
 <h2 align="center">Insulet</h2>
@@ -108,7 +110,7 @@ For my co-op as a user experience researcher with Insulet, I conducted formative
 - Contributed to the successful launch of a system integrated with multiple external medical devices
 - Communicated team findings to a wide organizational audience and strengthened trust in user research
 
-Tools: Qualtrics, UserZoom
+Tools: Qualtrics, UserZoom, Airtable
 
 
 <h2 align="center">Research Assistantships at Northeastern University</h2>
