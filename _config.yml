@@ -23,7 +23,7 @@ navbar-links:
   About Me: "aboutme"
   My Work: "mywork"
   #Just for Fun: "justforfun"
-  Contact: "contact"
+  More Info: "info"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
