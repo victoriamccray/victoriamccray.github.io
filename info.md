@@ -6,7 +6,7 @@ subtitle: Contact Me and FAQ
 
 Please feel free to reach out if you would like to discuss any of the following opportunities:
 - Careers and jobs
-- Consulting
+- Consulting projects
 - Reviews
 - Collaborations and Partnerships
 - Mentorship
