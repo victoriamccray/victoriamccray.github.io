@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Srinivasan Award
+title: 2023 Srinivasan Award Recipient
 subtitle: Thank you to the Center for Emerging Markets at Northeastern University!
 gh-repo: victoriamccray
 tags: [awards, open-source]
