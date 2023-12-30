@@ -11,7 +11,8 @@ I have 5+ years experience conducting research and data analysis. I have 3+ year
 
 Below are the organizations from my previous experience for more details.
 
-## Black In Neuro
+
+<h2 align="center">Black In Neuro</h2>
 
 Black In Neuro is a grassroots organization dedicated to providing resources, building community, and celebrating the contributions of black individuals in the neuroscience fields.I currently serve on the Board of Directors for the non-profit Black In Neuro where I oversee financial planning and reporting for the organization.
 
@@ -48,7 +49,9 @@ Funding and Partners: United Negro College Fund, Ernest E. Just Society
 
 Awards: Black In Neuro was awarded for Leadership and Service
 
-## Learning and Brain Development Lab
+
+<h2 align="center">Learning and Brain Development Lab</h2>
+
 
 The Learning and Brain Development Lab (LBDL) investigates the development of value processing, motivation, and learning across the lifespan at Northeastern University. I completed my undergraduate honors thesis in the LBDL with Dr. Juliet Davidow, and I received the Paul and Grace Ward Martinez (‘48) Research Fellowship to support my research.
 
@@ -64,7 +67,8 @@ Funding and Partners: Paul and Grace Ward Martinez, NITRC
 
 Awards: Avrom Aaron Leve Memorial Award
 
-## Autodesk
+
+<h2 align="center">Autodesk</h2>
 
 I worked as a contractor in Product Development and Manufacturing Solutions on the Experience Design Research team; my role was dedicated to improving user experience for design software products such as Inventor, Fusion, Vault, and more. I worked closely with user researchers, data analysts, data scientists, and cross-functional product teams. From my experience as an Analyst, I implemented statistical techniques to develop personalization for users.
 
@@ -86,7 +90,8 @@ For my role with Autodesk, I also attended the OOUX Workshop with other subject 
 
 Tools: Qualtrics XM, Looker, SQL
 
-## Insulet
+
+<h2 align="center">Insulet</h2>
 
 In 2021, Insulet launched the automated insulin mobile delivery system and application, Omnipod 5 to integrate with glucose monitors and the delivery system.
 
@@ -104,7 +109,8 @@ For my co-op as a user experience researcher with Insulet, I conducted formative
 
 Tools: Qualtrics, UserZoom
 
-## Research Assistantships at Northeastern University
+
+<h2 align="center">Research Assistantships at Northeastern University</h2>
 ### Department of Psychology
 
 Research Assistant, Language and Mind Lab
