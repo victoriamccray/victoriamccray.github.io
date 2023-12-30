@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-subtitle: Master of Science Candidate in Bioinformatics
+subtitle: 
 ---
 
 My name is Victoria McCray, and I'm currently a Master of Science Candidate in Bioinformatics at Northeastern University.
