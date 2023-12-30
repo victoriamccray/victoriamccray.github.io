@@ -19,7 +19,8 @@ Black In Neuro is a grassroots organization dedicated to providing resources, bu
 
 Black In Neuro collaborated with Society for Neuroscience (SfN) to provide a professional development workshop and community social available to SfN attendees. Along with Drs. Angeline Dukes, De-Shaine Murray, Clíona Kelly, Elena Dominguez, Rackeb Tesfaye, and Christine Liu. I collaborated to develop the workshop program, materials, and agenda for the SfN 2023 Conference. The workshop was attended in-person by 200+ individuals of varying personal, educational, and geographic backgrounds.
 
-Professional Workshop Title: How I Survived Grad School: Perspectives from Black In Neuro
+**Professional Development Workshop**
+How I Survived Grad School: Perspectives from Black In Neuro
 
 *The workshop was developed and facilitated by the Black In Neuro team*
 ![SfN Professional Development Attendees](assets/img/sfn-team-profdev.jpg)
