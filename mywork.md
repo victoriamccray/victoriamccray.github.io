@@ -105,20 +105,18 @@ Tools: Qualtrics, UserZoom
 ## Research Assistantships at Northeastern University
 ### Department of Psychology
 
-Language and Mind Lab
-Principal Investigator: Dr. Iris Berent
+Research Assistant, Language and Mind Lab
 
-Research Assistant
+Principal Investigator: Dr. Iris Berent
 
 Tools: MATLAB
 
 
 
 
-Interdisciplinary Affective Science Lab
-Principal Investigator: Dr. Lisa Feldman-Barrett
+Research Assistant, Interdisciplinary Affective Science Lab
 
-Research Assistant
+Principal Investigator: Dr. Lisa Feldman-Barrett
 
 Tools: Mindware
 
