@@ -9,5 +9,3 @@ tags: [mentorship, service]
 
 I'm excited to join the Legacy Mentorship Program at the African American Institute as a mentor to undergraduate students! JDOAAI is a strong cultural center that provides opportunities for scholarship, community service, and resources, and I am thrilled to be selected as a mentor.
 
-
-**Updates coming Spring 2024!**
