@@ -20,6 +20,7 @@ author: Victoria P. McCray
 ###############################################
 
 navbar-links:
+  Home: "https://victoriamccray.github.io/"
   About Me: "aboutme"
   My Work: "mywork"
   #Just for Fun: "justforfun"
@@ -27,8 +28,7 @@ navbar-links:
   #Resources:
     #- Beautiful Jekyll: "https://beautifuljekyll.com"
     #- Learn markdown: "https://www.markdowntutorial.com/"
-  Home: "https://victoriamccray.github.io/"
-
+  
 ################
 # --- Logo --- #
 ################
