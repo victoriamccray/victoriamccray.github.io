@@ -97,7 +97,7 @@ For my co-op as a user experience researcher with Insulet, I conducted formative
 
   
 **Outcomes:**
-- Provided understanding of the acceptability of applications among users with lived experience of Type I and Type II diabetes
+- Provided understanding of the efficacy of applications among users with lived experience of Type I and Type II diabetes
 - Contributed to the successful launch of a system integrated with multiple external medical devices
 - Communicated team findings to a wide organizational audience and strengthened trust in user research
 
