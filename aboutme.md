@@ -11,6 +11,7 @@ software development. I hope to contribute computational techniques that improve
 
 View my CV [here](assets/img/victoriamccray-cv.pdf).
 
+*As you can see, my skills are off the charts!*
 <h2 align="center">Skills</h2>
 ![CHART-LEVEL OF INTEREST AND EXPERIENCE TO DATE](assets/img/skills-chart.png)
 
