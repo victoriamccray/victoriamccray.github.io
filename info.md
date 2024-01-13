@@ -37,7 +37,7 @@ No. As a startup non-profit, Black In Neuro is primarily volunteer-run and most 
 
 ### What were the results of your thesis?
 
-Cannabis was shown to increase functional connectivity for persons living with comorbid cannabis use disorder and schizophrenia, and performance on the reward task increased for patients after cannabis use. However, comorbid patients did not reach levels comparable to healthy controls (connectivity, reward task). These results are both exploratory and replicated from previous studies.
+Cannabis was shown to increase functional connectivity for persons living with comorbid cannabis use disorder and schizophrenia, and performance on the reward task increased for patients after cannabis use. However, comorbid patients did not reach levels comparable to healthy controls (connectivity, reward task). These results were both exploratory and replicated from previous studies.
 ### Where can I find your contact information?
 
 See the links below to get in touch over email, connect over LinkedIn, view code projects on GitHub, or follow me on Twitter.
