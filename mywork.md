@@ -14,7 +14,7 @@ Below are the organizations from my previous experience for more details.
 
 <h2 align="center">Black In Neuro</h2>
 
-Black In Neuro is a grassroots organization dedicated to providing resources, building community, and celebrating the contributions of black individuals in the neuroscience fields.I currently serve on the Board of Directors for the non-profit Black In Neuro where I oversee financial planning and reporting for the organization.
+Black In Neuro is a grassroots organization dedicated to providing resources, building community, and celebrating the contributions of black individuals in the neuroscience fields. I currently serve on the Board of Directors for the non-profit Black In Neuro where I oversee financial planning and reporting for the organization.
 
 ### SfN 2023
 
