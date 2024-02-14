@@ -4,6 +4,13 @@ title: About Me
 subtitle: 
 ---
 
+### I am currently...
+
+- Health Data Scientist at Guidehouse
+- MSc Candidate in Bioinformatics
+- Finance Director at Black In Neuro
+
+
 My name is Victoria McCray, and I'm currently a Master of Science Candidate in Bioinformatics at Northeastern University. I earned my Bachelor of Science in Psychology (Honors) with a minor in Data Science from Northeastern University. 
 
 My research interests lie in computational methods and techniques in cognitive neuroscience and neuroimaging disciplines. I am currently a Masters of Science Candidate in Bioinformatics and have experience conducting data analysis, building computational pipelines, and providing advanced analytics. I have experience in data management, statistical analysis, and
@@ -15,7 +22,3 @@ View my CV [here](assets/img/victoriamccray-cv.pdf).
 <h2 align="center">Skills</h2>
 ![CHART-LEVEL OF INTEREST AND EXPERIENCE TO DATE](assets/img/skills-chart.png)
 
-### I am currently...
-
-- MSc Candidate in Bioinformatics
-- Finance Director at Black In Neuro
