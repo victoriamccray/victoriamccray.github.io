@@ -19,11 +19,11 @@ Not currently. I've started a new role as a Health Data Scientist at Guidehouse.
 
 ~~Yes! I would be most excited for the following roles, but I am also open to related opportunities:~~
 
-~~Data Scientist or Research Scientist
-- Conducting robust research projects, machine learning models, and analytical techniques for predictive power and decision making~~
+~~Data Scientist or Research Scientist~~
+~~- Conducting robust research projects, machine learning models, and analytical techniques for predictive power and decision making~~
 
-~~Bioinformatics Scientist or Bioinformatics Engineer
-- Computational applications for neuroimaging, biomedical, or healthcare data~~
+~~Bioinformatics Scientist or Bioinformatics Engineer~~
+~~- Computational applications for neuroimaging, biomedical, or healthcare data~~
 
 ~~Software Developer~~
 ~~- Programming of interfaces, data acquisition pipelines, or development of research tools (especially leveraging open-source technology and open data models)~~
