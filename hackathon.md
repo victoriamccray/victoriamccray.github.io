@@ -44,6 +44,7 @@ Potential solutions may include the following and more:
 Check out the overview workshop agenda [here](assets/img/workshop-agenda.pdf).
 
 ### Workshop Syllabus
+
 | Day | Topic                                     | Materials and Activities                                                                                         |
 |-----|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | 1   | Intro to Workshop                        | Workshop agenda, icebreaker activity<br>Welcome and introductions<br>Overview of workshop objectives and schedule |
@@ -56,7 +57,6 @@ Check out the overview workshop agenda [here](assets/img/workshop-agenda.pdf).
 | 8   | Cultural Sensitivity and Research        | Presentation slides, discussion prompts<br>Importance of cultural sensitivity in research<br>Strategies for inclusive research practices |
 | 9   | Hackathon and Sample Solutions           | GitHub account, sample projects<br>Hackathon event<br>Project presentations and feedback                           |
 | 10  | Workshop Close                           | Workshop summary, closing feedback<br>Recap of workshop highlights and key learnings<br>Participant feedback      |
-
 
 
 ## Additional Resources and Inspiration
