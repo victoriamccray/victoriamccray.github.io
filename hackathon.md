@@ -44,19 +44,19 @@ Potential solutions may include the following and more:
 Check out the overview workshop agenda [here](assets/img/workshop-agenda.pdf).
 
 ### Workshop Syllabus
+| Day | Topic                                     | Materials and Activities                                                                                         |
+|-----|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| 1   | Intro to Workshop                        | Workshop agenda, icebreaker activity<br>Welcome and introductions<br>Overview of workshop objectives and schedule |
+| 2   | Python Intro                             | Python IDE, learning resources<br>Introduction to Python programming language<br>Basic syntax and data types<br>Hands-on exercises |
+| 3   | Python Exercises                         | Python IDE, practice problems<br>Hands-on Python exercises<br>Problem-solving practice                            |
+| 4   | Intro to Open Source                     | Presentation slides, GitHub account<br>Overview of open source software<br>Discussion on open source communities and projects |
+| 5   | GitHub Intro                             | Presentation slides, GitHub account<br>Introduction to version control with Git and GitHub<br>Setting up GitHub account and repository |
+| 6   | Best Practices for Collaboration         | Presentation slides, GitHub account<br>Collaborative development workflows<br>Code reviews and pull requests       |
+| 7   | Open Source and Open Access                | Presentation slides, open data resources<br>Overview of open data principles and sources<br>Case studies of successful initiatives |
+| 8   | Cultural Sensitivity and Research        | Presentation slides, discussion prompts<br>Importance of cultural sensitivity in research<br>Strategies for inclusive research practices |
+| 9   | Hackathon and Sample Solutions           | GitHub account, sample projects<br>Hackathon event<br>Project presentations and feedback                           |
+| 10  | Workshop Close                           | Workshop summary, closing feedback<br>Recap of workshop highlights and key learnings<br>Participant feedback      |
 
-| Day | Topic                                     | Materials                                   | Activities                                                                                                             |
-|-----|-------------------------------------------|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| 1   | Intro to Workshop                        | Workshop agenda, icebreaker activity        | Welcome and introductions<br>Overview of workshop objectives and schedule<br>Icebreaker activity                        |
-| 2   | Python Intro                             | Python IDE, learning resources              | Introduction to Python programming language<br>Basic syntax and data types<br>Hands-on exercises                        |
-| 3   | Python Exercises                         | Python IDE, practice problems              | Hands-on Python exercises<br>Problem-solving practice                                                                  |
-| 4   | Intro to Open Source                     | Presentation slides, GitHub account        | Overview of open source software<br>Discussion on open source communities and projects                                  |
-| 5   | GitHub Intro                             | Presentation slides, GitHub account        | Introduction to version control with Git and GitHub<br>Setting up GitHub account and repository                          |
-| 6   | Best Practices for Collaboration         | Presentation slides, GitHub account        | Collaborative development workflows<br>Code reviews and pull requests                                                    |
-| 7   | Open Source and Open Access                | Presentation slides, open data resources   | Overview of open data principles and sources<br>Case studies of successful initiatives                                  |
-| 8   | Cultural Sensitivity and Research        | Presentation slides, discussion prompts    | Importance of cultural sensitivity in research<br>Strategies for inclusive research practices                           |
-| 9   | Hackathon and Sample Solutions           | GitHub account, sample projects            | Hackathon event<br>Project presentations and feedback                                                              |
-| 10  | Workshop Close                           | Workshop summary, closing feedback             | Recap of workshop highlights and key learnings<br>Participant feedback                   |
 
 
 ## Additional Resources and Inspiration
