@@ -79,3 +79,7 @@ Check out the overview workshop agenda [here](assets/img/workshop-agenda.pdf).
 <br>[African Research Academy for Women](https://www.africanwomenresearchers.org/)
 <br>[Brain Research Africa](https://brainafrica.org/)
 <br>[International Society for Computational Biology](https://www.iscb.org/)
+
+## Acknowledgements
+
+This project is made possible through the support of multiple collaborative partners. I would like to extend my gratitude to my mentor Juliet Davidow and the support of the Learning and Brain Development Lab for guidance on the vision. The in-person workshop is coordinated with the support of TReND in Africa, and I extend my thanks to the organization for the collaboration. I would also like to thank the Center for Emerging Markets at Northeastern University for the support as a recipient of the Srinivasan Award that is able to facilitate the project.
