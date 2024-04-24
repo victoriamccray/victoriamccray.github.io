@@ -6,6 +6,31 @@ subtitle: The Open Science Neuro Hackathon and Workshop is dedicated to building
 
 The primary aim of this project is to offer a hackathon that addresses research challenges for neuroscientists of the African diaspora. The project facilitates the development of open-source and community-based research tools that can alleviate financial burdens for neuroscientists. The aims of the project are to increase access to neuroimaging technology and open-source analytical techniques on the African continent and globally, where scientists face challenges in these resources. Moreover, STEM fields broadly lack diverse and inclusive outreach for underrepresented, historically marginalized and underfunded communities.
 
+## Hackathon
+
+The hackathon submissions will be open to individuals across career levels and trajectories, with the intention of addressing specific barriers.
+
+Learn more about [how to contribute](https://github.com/victoriamccray/Hackathon/blob/main/CONTRIBUTING.md).
+
+View sample solutions in the [GitHub repository](https://github.com/victoriamccray/Hackathon/tree/main).
+
+### Research Solutions
+
+Potential solutions may include the following and more:
+
+- Development of guidelines and best practices for culturally-sensitive and ethical research practices
+- Increased representation and visibility of African populations in neuroscience research
+- Educational open discussions and knowledge sharing
+- Collaborative solutions mitigating connectivity and communication constraints between scientists
+
+### Software Solutions
+
+Potential solutions may include the following and more:
+
+- Platform development for data sharing, computing, and brain data analysis
+- Statistical modeling of open access data
+- Interface development for increased ease of data collection
+
 ## Workshop
 
 ### Computational Neuroscience Hackathon: Python for Neuroimaging Data
