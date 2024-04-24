@@ -14,7 +14,7 @@ The primary aim of this project is to offer a hackathon that addresses research 
 
 *Duration: 2-4 Weeks*
 <br>*Location: TBD*
-*Dates: TBD (November 2024 - Jan 2025)*
+<br>*Dates: TBD (November 2024 - Jan 2025)*
 
 ### Workshop Syllabus
 
