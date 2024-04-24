@@ -16,7 +16,7 @@ The primary aim of this project is to offer a hackathon that addresses research 
 <br>*Location: TBD*
 <br>*Dates: TBD (November 2024 - Jan 2025)*
 
-Check out the workshop agenda ![here](assets/img/workshop-agenda.pdf).
+Check out the overview workshop agenda [here](assets/img/workshop-agenda.pdf).
 
 ### Workshop Syllabus
 
