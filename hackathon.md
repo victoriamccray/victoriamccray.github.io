@@ -35,7 +35,7 @@ Potential solutions may include the following and more:
 
 ### Computational Neuroscience Hackathon: Python for Neuroimaging Data
 
-*Instructor/Facilitator: Victoria McCray, M.S. Candidate in Bioinformatics*
+*Instructor/Facilitator: Victoria McCray, Health Data Scientist and M.S. Candidate in Bioinformatics*
 
 *Duration: 2 Weeks*
 <br>*Location: Lilongwe University for Agriculture and Natural Resources*
