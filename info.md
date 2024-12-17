@@ -31,7 +31,7 @@ Not currently. I've started a new role as a Health Data Scientist at Guidehouse.
 
 ### When do you finish your Master's program?
 
-I expect to complete my program and graduate with my MSc Spring 2025.
+I expect to complete my program and graduate with my MSc in 2025.
 
 ### Is your Board Directorship with Black In Neuro full-time?
 
