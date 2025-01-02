@@ -39,7 +39,7 @@ Potential solutions may include the following and more:
 
 *Duration: 2 Weeks*
 <br>*Location: Lilongwe University for Agriculture and Natural Resources*
-<br>*Dates: Jan 6 - 18, 2025*
+<br>*Dates: Feb 10 - 23, 2025*
 
 Check out the overview workshop agenda [here](assets/img/workshop-agenda.pdf).
 
