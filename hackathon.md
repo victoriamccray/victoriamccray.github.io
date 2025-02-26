@@ -26,7 +26,7 @@ Week One will focus on introductory and foundational learnings related to the hu
 
 Week Two will feature case study applications from guest speakers, hands-on activities, and dedicated time to develop and present novel solutions for the hackathon.
 
-Textbook: [](https://neuraldatascience.io/)
+Textbook: [(https://neuraldatascience.io/)]
 <br>
 <br>Additional Readings: [](https://drive.google.com/drive/folders/1OGrmirS8VnAcQFARuVSWwKQ7ZWCv32qu?usp=drive_link)
 
