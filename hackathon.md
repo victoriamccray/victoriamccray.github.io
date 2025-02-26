@@ -26,9 +26,9 @@ Week One will focus on introductory and foundational learnings related to the hu
 
 Week Two will feature case study applications from guest speakers, hands-on activities, and dedicated time to develop and present novel solutions for the hackathon.
 
-Textbook: https://neuraldatascience.io/
+Textbook: [](https://neuraldatascience.io/)
 <br>
-<br>Additional Readings: https://drive.google.com/drive/folders/1OGrmirS8VnAcQFARuVSWwKQ7ZWCv32qu?usp=drive_link
+<br>Additional Readings: [](https://drive.google.com/drive/folders/1OGrmirS8VnAcQFARuVSWwKQ7ZWCv32qu?usp=drive_link)
 
 # Short Course
 
@@ -116,7 +116,7 @@ Feb 10 - 21, 2025
 
 ## Additional Resources
 
-A compiled opportunity list for relevant courses, trainings, and continued learning from TReND in Africa, Black In Neuro, and other organizations: (https://docs.google.com/spreadsheets/d/1HC4_1JtP9Md8OreAJPa7eFLNZDCsg4-gwbw0l6PCt-c/edit?usp=sharing)
+A compiled opportunity list for relevant courses, trainings, and continued learning from TReND in Africa, Black In Neuro, and other organizations: [](https://docs.google.com/spreadsheets/d/1HC4_1JtP9Md8OreAJPa7eFLNZDCsg4-gwbw0l6PCt-c/edit?usp=sharing)
 
 ## Acknowledgements
 This project is made possible through the support of multiple collaborative partners. 
