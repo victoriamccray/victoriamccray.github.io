@@ -14,73 +14,33 @@ Learn more about [how to contribute](https://github.com/victoriamccray/Hackathon
 
 View sample solutions in the [GitHub repository](https://github.com/victoriamccray/Hackathon/tree/main).
 
-### Research Solutions
+## Open Science Neuro Hackathon
 
-Potential solutions may include the following and more:
+The two-week program bridges interdisciplinary topics such as neuroscience, data science, ethics, and open access frameworks. Attendees will receive hands-on instruction and problem-solving experience by developing novel hackathon solutions. The course is Python-intensive and lectures will introduce neuroimaging data preparation, processing, and modeling. Attendees may present their solutions to their peers in a knowledge-sharing environment.
 
-- Development of guidelines and best practices for culturally-sensitive and ethical research practices
-- Increased representation and visibility of African populations in neuroscience research
-- Educational open discussions and knowledge sharing
-- Collaborative solutions mitigating connectivity and communication constraints between scientists
+**Dates**: Feb 10 - 21, 2025
 
-### Software Solutions
+**Schedule**
 
-Potential solutions may include the following and more:
+Week One will focus on introductory and foundational learnings related to the human nervous system, coding in Python, and ethical problems within research and machine learning. This week may also introduce the hackathon framework.
 
-- Platform development for data sharing, computing, and brain data analysis
-- Statistical modeling of open access data
-- Interface development for increased ease of data collection
+Week Two will feature case study applications from guest speakers, hands-on activities, and dedicated time to develop and present novel solutions for the hackathon.
 
-## Workshop
+Textbook: https://neuraldatascience.io/
+<br>
+<br>Additional Readings: https://drive.google.com/drive/folders/1OGrmirS8VnAcQFARuVSWwKQ7ZWCv32qu?usp=drive_link
 
-### Computational Neuroscience Hackathon: Python for Neuroimaging Data
+### Program Syllabus
 
-*Instructor/Facilitator: Victoria McCray, Health Data Scientist and M.S. Candidate in Bioinformatics*
-
-*Duration: 2 Weeks*
-<br>*Location: Lilongwe University for Agriculture and Natural Resources*
-<br>*Dates: Feb 10 - 23, 2025*
-
-Check out the overview workshop agenda [here](assets/img/workshop-agenda.pdf).
-
-### Workshop Syllabus
-
-| Day | Topic                                     | Materials and Activities                                                                                         |
-|-----|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| 1   | Intro to Workshop                        | Workshop agenda, icebreaker activity<br>Welcome and introductions<br>Overview of workshop objectives and schedule |
-| 2   | Intro to Python<br><br>Intro to Neuroimaging                    | Python IDE, learning resources, GitHub account<br>Introduction to Python programming language<br>Basic syntax and data types<br><br> Metaphors for the Brain<br>Neuroimaging Techniques and Data Acquisition |
-| 3   | Intro to Python<br><br>Intro to Neuroimaging                         | Python IDE, practice problems<br>Hands-on Python exercises<br>Problem-solving practice<br><br>Open-source libraries for neuroimaging, electrophysiology, and neuroinformatics                            |
-| 4   | Statistics and ML for Computational Neuroscience         | Presentation slides, GitHub account<br>Collaborative development workflows<br>Code reviews and pull requests       |
-| 5   | Statistics and ML for Computational Neuroscience                | Presentation slides, Smoothing and Normalization, Pre-Processing of brain data, Clustering Models<br>Overview of open data principles and sources<br>Case studies of successful initiatives |
-| 6   | Intro to Open Source and Open Access<br><br>Neuroethics and Bias                     | Presentation slides, GitHub account<br>Overview of open source software<br>Discussion on open source communities and projects<br>Open data models and repositories |
-| 7   | Intro to Open Source and Open Access<br><br>Neuroethics and Bias                            | Hands on Collaboration, GitHub account<br>Introduction to version control with Git and GitHub<br>Setting up GitHub account and repository <br>Bias in ML and AI, Inclusive Research Practices, Neurotechnology Applications and Society|
-| 8   | Case Studies        | Presentation slides, discussion prompts<br>Importance of cultural sensitivity in research<br>Strategies for inclusive research practices |
-| 9   | Hackathon Solutions and Presentations          | GitHub account, sample projects<br>Hackathon event<br>Project presentations and feedback                           |
-| 10  | Hackathon Solutions and Presentations<br><br>Workshop Close                           | Workshop summary, closing feedback<br>Recap of workshop highlights and key learnings<br>Participant feedback      |
-
-
-## Additional Resources and Inspiration
-
-[African Brain Data Network](https://africanbraindatanetwork.com/)
-<br>[SPARC Africa](https://sparcopen.org/people/sparc-africa/)
-<br>[Society for Neuroscientists in Africa](https://sonafrica.org/)
-<br>[International Brain Research Organization](https://ibro.org/)
-<br>[Chan Zuckerberg Initiative](https://chanzuckerberg.com/eoss/)
-<br>[Black In Neuro](https://blackinneuro.com/)
-<br>[ALBA](https://www.alba.network/)
-<br>[brainlife.io](https://brainlife.io/about/)
-<br>[EBRAINS](https://www.ebrains.eu/)
-<br>[Women in Neuroscience Nigeria](https://www.winng.org.ng/)
-<br>[Kavli Foundation](https://www.kavlifoundation.org/)
-<br>[African Biogenome Project](https://africanbiogenome.org/)
-<br>[Hack Diversity](https://www.hackdiversity.com/)
-<br>[TReND in Africa](https://trendinafrica.org/)
-<br>[NAAMII](https://www.naamii.org.np/)
-<br>[Women in Data Science Worldwide](https://www.widsworldwide.org/)
-<br>[African Research Academy for Women](https://www.africanwomenresearchers.org/)
-<br>[Brain Research Africa](https://brainafrica.org/)
-<br>[International Society for Computational Biology](https://www.iscb.org/)
-
-## Acknowledgements
-
-This project is made possible through the support of multiple collaborative partners. I would like to extend my gratitude to my mentor Juliet Davidow and the support of the Learning and Brain Development Lab for guidance on the vision. The in-person workshop is coordinated with the support of TReND in Africa, and I extend my thanks to the organization for the collaboration. The hackathon is made possible through the collaborative support of Black In Neuro and contributions from Facebook Reality Labs at Meta. I would also like to thank the Center for Emerging Markets at Northeastern University for the support as a recipient of the Srinivasan Award that is able to facilitate the project.
+| Day | Topic                                     | Materials                                   | Duration | Learning Objectives                                                                                                       | Activities                                                                                                             |
+|-----|-------------------------------------------|---------------------------------------------|----------|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| 1   | Program Overview and Introduction         | Workshop agenda, icebreaker activity        | 1 hours  | - Understand the objectives and schedule of the workshop<br>- Break the ice and get to know other participants           | Welcome and introductions<br>Overview of workshop objectives and schedule<br>Icebreaker activity|
+| 2   | Intro to Python                           | Python IDE, learning resources              | 2 hours  | - Learn the basics of Python syntax and data types<br>- Understand variables, operators, and control flow in Python    | Introduction to Python programming language<br>Basic syntax and data types<br>Hands-on exercises                        |
+| 3   | Intro to Neuroscience and Neuroimaging    | Presentation slides, fMRI data examples     | 2 hours  | - Gain a foundational understanding of neuroscience and neuroimaging techniques<br>- Explore common applications         | Introduction to the human nervous system<br>Overview of neuroimaging modalities and applications                        |
+| 4   | Python Ecosystem for Neuroimaging         | Python libraries (e.g., Nilearn, Numpy)     | 3 hours  | - Learn Python libraries for data handling and neuroimaging<br>- Understand BIDS and NIfTI formats                      | Hands-on exploration of Python tools<br>Working with neuroimaging data formats                                           |
+| 5   | Data Science and ML Applications          | Machine learning libraries, case studies    | 3 hours  | - Explore data science and ML techniques for neuroimaging<br>- Understand key concepts in network analysis              | Introduction to machine learning in neuroscience<br>Case studies and exercises                                           |
+| 6   | Hackathon Framework                       | GitHub account, project templates           | 1 hours  | - Understand the goals and structure of the hackathon<br>- Begin planning and organizing project ideas                   | Hackathon framework overview<br>Brainstorming project ideas  
+| 7   | Neuroethics and Bias                      | case studies           | 1 hours  | - Understand the ethical principles of biological research and biases in ML<br>- Discussion for mitigating biases                   | Hackathon framework overview<br>Brainstorming project ideas
+| 8   | Open Science and the African Brain Data Network | Presentation slides, open data resources   | 2 hours  | - Understand the principles of open science<br>- Learn about the African Brain Data Network and its significance         | Overview of open science initiatives<br>Discussion on the African Brain Data Network                                      |
+| 9   | Signal Processing with EMG Data           | EMG datasets, processing scripts            | 2 hours  | - Learn about signal processing techniques<br>- Apply processing to EMG data                                             | Hands-on activities with EMG data<br>Signal analysis exercises                                                           |                                                             |
+| 10   | Program Closing                           | Workshop summary, closing feedback          | 2 hours  | - Recap of workshop highlights and key learnings<br>- Provide feedback and celebrate accomplishments                     | Recap of workshop highlights and key learnings<br>Participant feedback and certificates                                   |
