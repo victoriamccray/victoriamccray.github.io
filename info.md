@@ -4,12 +4,11 @@ title: More Information
 subtitle: Contact Me and FAQ
 ---
 
-Please feel free to reach out if you would like to discuss any of the following opportunities:
-- Careers and jobs
-- Consulting projects
-- Reviews
-- Collaborations and Partnerships
-- Mentorship
+**Projects I'd Love to Collaborate On:**
+- Multi-modal data integration for understanding brain disorders
+- Open-source tools for accessible neuroimaging analysis
+- Research examining how technology shapes cognitive processing
+- Community-engaged health data science
 
 ## Frequently Asked Questions
 
