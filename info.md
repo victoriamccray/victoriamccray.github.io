@@ -10,6 +10,12 @@ subtitle: Contact Me and FAQ
 - Research examining how technology shapes cognitive processing
 - Community-engaged health data science
 
+**Currently Thinking About:**
+- How foundation models might transform biological discovery
+- The relationship between artificial and biological information processing
+- Ethical frameworks for neurotechnology and brain data
+- Methods for community-engaged computational research
+
 ## Frequently Asked Questions
 
 ### When do you finish your Master's program?
