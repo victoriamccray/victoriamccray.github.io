@@ -118,6 +118,9 @@ Feb 10 - 21, 2025
 
 A compiled opportunity list for relevant courses, trainings, and continued learning from TReND in Africa, Black In Neuro, African Brain Data Network, and other organizations: [https://docs.google.com/spreadsheets/d/1HC4_1JtP9Md8OreAJPa7eFLNZDCsg4-gwbw0l6PCt-c/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1HC4_1JtP9Md8OreAJPa7eFLNZDCsg4-gwbw0l6PCt-c/edit?usp=sharing)
 
+## Outcomes
+Check out a brief outcomes report for the hackathon [here](https://github.com/victoriamccray/victoriamccray.github.io/blob/a195d67f2aa97d59fc566b4401ef822ba91de309/assets/img/Hackathon%20Outcomes%20Report.pdf)!
+
 ## Acknowledgements
 This project is made possible through the support of multiple collaborative partners. 
 <br><br>I am grateful to TReND in Africa for cultivating and facilitating the partnership with Lilongwe University for Agriculture and Natural Resources (LUANAR). The in-person workshop is coordinated with the support of the African Centre for Excellence (Agriculture and Policy Analysis) at LUANAR, and I extend my warm thank you to the organization for the collaboration.
