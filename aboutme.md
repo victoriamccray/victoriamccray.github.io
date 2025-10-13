@@ -30,9 +30,9 @@ Beyond my technical work, I'm committed to democratizing access to STEM and comp
 
 ## Research Interests
 
-- Computational Neuroscience: Brain connectivity analysis, reward processing, information integration, neuropsychiatric disorders
-- Biomedical Data Science: Large-scale health surveillance, epidemiological modeling, signal detection in noisy clinical data
-- Machine Learning for Biology: Statistical genomics, multi-omic integration, pattern recognition in complex biological systems
+- <b>Computational Neuroscience</b>: Brain connectivity analysis, reward processing, information integration, neuropsychiatric disorders
+- <b>Biomedical Data Science</b>: Large-scale health surveillance, epidemiological modeling, signal detection in noisy clinical data
+- <b>Machine Learning for Biology</b>: Statistical genomics, multi-omic integration, pattern recognition in complex biological systems
 
 
 View my CV [here](assets/img/victoriamccray-cv.pdf).
