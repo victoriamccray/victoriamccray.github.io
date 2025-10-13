@@ -11,7 +11,6 @@ subtitle: Contact Me and FAQ
 - Community-engaged health data science
 
 **Currently Thinking About:**
-- How foundation models might transform biological discovery
 - The relationship between artificial and biological information processing
 - Ethical frameworks for neurotechnology and brain data
 - Methods for community-engaged computational research
