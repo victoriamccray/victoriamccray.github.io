@@ -15,6 +15,25 @@ Below are the organizations from my previous experience for more details.
 
 I joined Guidehouse as a Data Scientist on the Health Data Science and Analytics team in February 2024. Guidehouse provides consulting to public health, private sector, state and federal health agencies. As a consultant in the Guidehouse Health segment, my work focuses on the delivery of informatics solutions for life science domains.
 
+<h3 align="center">Supporting the CDC</h3>
+
+Guidehouse Health (2024-Present)
+
+Health Data Scientist | Public Health Advisory | AI & Data Science Technology
+
+With the Centers for Disease Control and Prevention (CDC), I developed statistical pipelines and data quality frameworks for large-scale public health surveillance systems. Lead technical documentation, implement automated processing workflows, and conduct epidemiological analyses supporting federal health initiatives.
+
+**Key Contributions:**
+- Architected data quality control systems processing 2M+ records
+- Authored standard operating procedures for cross-functional 
+  scientific teams
+- Developed statistical modeling pipelines for prevalence estimation
+- Created analytics for public-facing dashboards of federal programs
+
+Technical Stack: PySpark, Python, R, SQL, Databricks, Snowflake, 
+Power BI, GitHub
+
+[View CDC Public Dashboard](https://www.cdc.gov/overdose-prevention/data-research/facts-stats/dose-dashboard-nonfatal-discharge-data.html) [Read More about Public Health Analytics]
 <h2 align="center">Black In Neuro</h2>
 
 Black In Neuro is a grassroots organization dedicated to providing resources, building community, and celebrating the contributions of black individuals in the neuroscience fields. I currently serve on the Board of Directors for the non-profit Black In Neuro where I oversee financial planning and reporting for the organization.
