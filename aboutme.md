@@ -33,6 +33,8 @@ Beyond my technical work, I'm committed to democratizing access to STEM and comp
 - <b>Computational Neuroscience</b>: Brain connectivity analysis, reward processing, information integration, neuropsychiatric disorders
 - <b>Biomedical Data Science</b>: Large-scale health surveillance, epidemiological modeling, signal detection in noisy clinical data
 - <b>Machine Learning for Biology</b>: Statistical genomics, multi-omic integration, pattern recognition in complex biological systems
+- <b>Human-Computer Interaction & Neuroethics</b>: How technology shapes cognition, bias in AI/ML, ethical data collection in vulnerable populations
+- <b>Research Methodology & Equity</b>: Open science in resource-limited settings, community-engaged research, reproducibility
 
 
 View my CV [here](assets/img/victoriamccray-cv.pdf).
