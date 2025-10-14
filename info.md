@@ -14,8 +14,7 @@ subtitle: Contact Me and FAQ
 - The relationship between artificial and biological information processing
 - Ethical frameworks for neurotechnology and brain data
 - Methods for community-engaged computational research
-- Human-Computer Interaction & Neuroethics: How technology shapes cognition, bias in AI/ML, ethical data collection in vulnerable populations
-- Research Methodology & Equity: Open science in resource-limited settings, community-engaged research, reproducibility
+
 
 ## Frequently Asked Questions
 
