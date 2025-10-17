@@ -21,10 +21,10 @@ Guidehouse Health (2024-Present)
 
 Health Data Scientist | Public Health Advisory | AI & Data Science Technology
 
-With the Centers for Disease Control and Prevention (CDC), I developed statistical pipelines and data quality frameworks for large-scale public health surveillance systems. Lead technical documentation, implement automated processing workflows, and conduct epidemiological analyses supporting federal health initiatives.
+With the Centers for Disease Control and Prevention (CDC), I developed statistical pipelines and data quality frameworks for large-scale public health surveillance systems. I led technical documentation, implemented automated processing workflows, and conducted epidemiological analyses supporting federal health initiatives.
 
 **Key Contributions:**
-- Architected data quality control systems processing 2M+ records
+- Architected data quality control systems processing 11M+ records
 - Authored standard operating procedures for cross-functional 
   scientific teams
 - Developed statistical modeling pipelines for prevalence estimation
