@@ -26,7 +26,7 @@ As a health data scientist at Guidehouse, I architect data quality frameworks an
 Concurrently, I'm completing my MSc in Bioinformatics at Northeastern to grow my expertise in computational biology and statistical genomics. I'm particularly interested in how multi-omic approaches and network analysis can generate insight into disease mechanisms by finding meaningful structure in high-dimensional, noisy data.
 
 ### Building Research Capacity
-Beyond my technical work, I'm committed to democratizing access to STEM and computational research tools. In February 2025, I led a two-week neuroimaging data science program at Lilongwe University in Malawi, teaching Python, neuroimaging analysis, and research ethics.
+Beyond my technical work, I'm committed to democratizing access to STEM and computational research tools. In February 2025, I led a two-week neuroimaging data science program at Lilongwe University for Agriculture and Natural Resources in Malawi, teaching Python, neuroimaging analysis, and research ethics.
 
 ## Research Interests
 
