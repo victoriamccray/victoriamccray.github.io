@@ -37,7 +37,7 @@ Beyond my technical work, I'm committed to democratizing access to STEM and comp
 - <b>Research Methodology & Equity</b>: Open science in resource-limited settings, community-engaged research, reproducibility
 
 
-View my CV [here](assets/img/victoriamccray-cv.pdf).
+View my CV [here](https://github.com/victoriamccray/victoriamccray.github.io/blob/999f93abf1963e2d1173d2a710f5c8222b5ce4bf/assets/img/Resume%20Victoria%20McCray%202025.pdf).
 
 *As you can see, my skills are off the charts!*
 <h2 align="center">Skills</h2>
