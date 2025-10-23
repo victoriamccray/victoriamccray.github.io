@@ -260,4 +260,71 @@ subtitle: Technical Expertise Visualization
 
 var selectedDomain = null;
 var svg = document.getElementById('constellationSvg');
+
+// Calculate position of skills around domain centers
+function getSkillPosition(centerX, centerY, index, total) {
+    var angle = (index / total) * 2 * Math.PI;
+    var radius = 12;
+    return {
+        x: centerX + Math.cos(angle) * radius,
+        y: centerY + Math.sin(angle) * radius
+    };
+}
+
+// Show info panel when hovering
+function showInfo(skillId, isCore) {
+    var panel = document.getElementById('infoPanel');
+    var title = document.getElementById('skillTitle');
+    var domainName = document.getElementById('domainName');
+    var proficiencyBar = document.getElementById('proficiencyBar');
+    var proficiencyFill = document.getElementById('proficiencyFill');
+    var toolsContainer = document.getElementById('toolsContainer');
+
+    if (isCore) {
+        var skill = null;
+        for (var i = 0; i < skillsData.core.length; i++) {
+            if (skillsData.core[i].id === skillId) {
+                skill = skillsData.core[i];
+                break;
+            }
+        }
+        if (!skill) return;
+        
+        title.textContent = skill.name;
+        domainName.textContent = skill.level + '% proficiency';
+        proficiencyBar.style.display = 'none';
+        
+        var toolsHtml = '';
+        for (var i = 0; i < skill.tools.length; i++) {
+            toolsHtml += '<span class="tool-tag core-tool-tag">' + skill.tools[i] + '</span>';
+        }
+        toolsContainer.innerHTML = toolsHtml;
+    } else {
+        var parts = skillId.split('-');
+        var domainKey = parts[0];
+        var skillIdx = parseInt(parts[1]);
+        var domain = skillsData.domains[domainKey];
+        if (!domain) return;
+        
+        var skill = domain.skills[skillIdx];
+        
+        title.textContent = skill.name;
+        domainName.textContent = domain.name;
+        proficiencyBar.style.display = 'block';
+        proficiencyFill.style.width = skill.level + '%';
+        proficiencyFill.style.backgroundColor = domain.color;
+        
+        var toolsHtml = '';
+        for (var i = 0; i < skill.tools.length; i++) {
+            toolsHtml += '<span class="tool-tag" style="background-color: ' + domain.color + '33; color: ' + domain.color + ';">' + skill.tools[i] + '</span>';
+        }
+        toolsContainer.innerHTML = toolsHtml;
+    }
+
+    panel.classList.add('visible');
+}
+
+function hideInfo() {
+    document.getElementById('infoPanel').classList.remove('visible');
+}
 </script>
