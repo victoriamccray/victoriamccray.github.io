@@ -398,7 +398,7 @@ function renderConstellation() {
             var node = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
             node.setAttribute('cx', pos.x);
             node.setAttribute('cy', pos.y);
-            node.setAttribute('r', '1.5');
+            node.setAttribute('r', '2');  // Changed from 1.5 to 2
             node.setAttribute('fill', domain.color);
             node.classList.add('skill-node');
             node.setAttribute('data-skill-id', key + '-' + j);
