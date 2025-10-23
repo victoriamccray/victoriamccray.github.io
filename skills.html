@@ -1,0 +1,263 @@
+---
+layout: page
+title: Skills
+subtitle: Technical Expertise Visualization
+---
+
+<style>
+    .constellation-container {
+    width: 100%;
+    min-height: 800px;
+    background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #1e293b 100%);
+    padding: 2rem;
+    border-radius: 12px;
+    position: relative;
+    margin: 2rem 0;
+}
+
+.constellation-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.constellation-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.constellation-header p {
+    color: #cbd5e1;
+    font-size: 1rem;
+}
+
+.domain-filters {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.domain-filter-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid;
+    background: transparent;
+}
+
+.domain-filter-btn:hover {
+    transform: scale(1.05);
+}
+
+.domain-filter-btn.inactive {
+    opacity: 0.4;
+}
+
+.constellation-svg {
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+
+.skill-node {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.skill-node:hover {
+    filter: brightness(1.2);
+}
+
+.info-panel {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(30, 41, 59, 0.95);
+    border: 1px solid #475569;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 500px;
+    width: 90%;
+    display: none;
+    z-index: 10;
+}
+
+.info-panel.visible {
+    display: block;
+}
+
+.info-panel h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.info-panel .domain-name {
+    color: #cbd5e1;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
+.proficiency-bar {
+    width: 100%;
+    height: 8px;
+    background: #475569;
+    border-radius: 9999px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    display: none;
+}
+
+.proficiency-fill {
+    height: 100%;
+    border-radius: 9999px;
+    transition: width 0.5s ease;
+}
+
+.tools-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tool-tag {
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+}
+
+.core-tool-tag {
+    background: #475569;
+    color: #e2e8f0;
+}
+
+@media (max-width: 768px) {
+    .constellation-container {
+        padding: 1rem;
+        min-height: 600px;
+    }
+    
+    .constellation-header h1 {
+        font-size: 1.75rem;
+    }
+    
+    .constellation-svg {
+        height: 400px;
+    }
+}
+</style>
+
+<div class="constellation-container">
+    <div class="constellation-header">
+        <h1>Technical Skills Constellation</h1>
+        <p>Interactive map of expertise across cognitive science, bioinformatics, and data science</p>
+        <div id="domainFilters"></div>
+    </div>
+    
+    <svg id="constellationSvg" viewBox="0 0 100 100"></svg>
+    
+    <div class="info-panel" id="infoPanel">
+        <h3 id="skillTitle"></h3>
+        <p class="domain-name" id="domainName"></p>
+        <div class="proficiency-bar" id="proficiencyBar">
+            <div class="proficiency-fill" id="proficiencyFill"></div>
+        </div>
+        <div class="tools-container" id="toolsContainer"></div>
+    </div>
+</div>
+
+<script>
+    var skillsData = {
+    core: [
+        { 
+            id: 'pipelines',
+            name: 'Data Engineering & Pipelines', 
+            level: 95, 
+            x: 50, 
+            y: 50, 
+            size: 8,
+            color: '#3b82f6',
+            tools: ['PySpark', 'Databricks', 'SQL', 'Snowflake', 'ETL/ELT']
+        },
+        { 
+            id: 'stats',
+            name: 'Statistical Modeling', 
+            level: 90, 
+            x: 35, 
+            y: 45, 
+            size: 7.5,
+            color: '#8b5cf6',
+            tools: ['R', 'Python', 'Biostatistics', 'Regression', 'ANOVA']
+        },
+        { 
+            id: 'viz',
+            name: 'Data Visualization', 
+            level: 95, 
+            x: 65, 
+            y: 45, 
+            size: 7.5,
+            color: '#06b6d4',
+            tools: ['Power BI', 'Plotly', 'D3.js', 'Dashboards', 'Qualtrics']
+        }
+    ],
+    domains: {
+        neuro: {
+            name: 'Cognitive Science & Neuroinformatics',
+            color: '#ec4899',
+            centerX: 25,
+            centerY: 25,
+            skills: [
+                { name: 'Brain Connectivity Analysis', level: 85, tools: ['CONN', 'Network Analysis', 'fMRI'] },
+                { name: 'Neuropsychological Methods', level: 80, tools: ['Behavioral Analysis', 'Cognitive Testing'] },
+                { name: 'Reward Processing Models', level: 75, tools: ['Computational Models', 'Schizophrenia Research'] }
+            ]
+        },
+        bioinfo: {
+            name: 'Bioinformatics & Public Health',
+            color: '#10b981',
+            centerX: 75,
+            centerY: 25,
+            skills: [
+                { name: 'Clinical Data Analysis', level: 90, tools: ['Healthcare Claims', 'EHR Data', 'ICD Codes'] },
+                { name: 'Epidemiological Modeling', level: 85, tools: ['Prevalence Analysis', 'Mortality Models', 'Surveillance'] },
+                { name: 'Public Health Systems', level: 90, tools: ['Overdose Prevention', 'Disease Surveillance', 'Data Quality'] }
+            ]
+        },
+        applied: {
+            name: 'Applied Data Science',
+            color: '#f59e0b',
+            centerX: 25,
+            centerY: 75,
+            skills: [
+                { name: 'Machine Learning', level: 75, tools: ['Clustering', 'Classification', 'Text Analysis'] },
+                { name: 'Cloud Computing', level: 80, tools: ['AWS', 'Databricks', 'HPC'] },
+                { name: 'Algorithm Design', level: 75, tools: ['Optimization', 'Computational Methods'] }
+            ]
+        },
+        emerging: {
+            name: 'Emerging Technologies',
+            color: '#6366f1',
+            centerX: 75,
+            centerY: 75,
+            skills: [
+                { name: 'Generative AI', level: 70, tools: ['Prompt Engineering', 'LLM Integration', 'AI Workflows'] },
+                { name: 'Low-Code Development', level: 80, tools: ['Power Platform', 'Power Apps', 'SharePoint'] },
+                { name: 'Automation & Scraping', level: 85, tools: ['Web Scraping', 'API Integration', 'Python Automation'] }
+            ]
+        }
+    }
+};
+
+var selectedDomain = null;
+var svg = document.getElementById('constellationSvg');
+</script>
