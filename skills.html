@@ -465,4 +465,42 @@ function renderConstellation() {
         svg.appendChild(g);
     }
 }
+
+function renderFilters() {
+    var container = document.getElementById('domainFilters');
+    var domainKeys = Object.keys(skillsData.domains);
+    for (var i = 0; i < domainKeys.length; i++) {
+        var key = domainKeys[i];
+        var domain = skillsData.domains[key];
+        var btn = document.createElement('button');
+        btn.textContent = domain.name;
+        btn.className = 'domain-filter-btn';
+        btn.style.backgroundColor = domain.color + '33';
+        btn.style.borderColor = domain.color;
+        btn.style.color = domain.color;
+        btn.setAttribute('data-domain-key', key);
+        
+        btn.addEventListener('click', function(e) {
+            var clickedKey = e.target.getAttribute('data-domain-key');
+            selectedDomain = selectedDomain === clickedKey ? null : clickedKey;
+            updateFilters();
+            renderConstellation();
+        });
+        
+        container.appendChild(btn);
+    }
+}
+
+function updateFilters() {
+    var btns = document.querySelectorAll('.domain-filter-btn');
+    for (var i = 0; i < btns.length; i++) {
+        var btn = btns[i];
+        var key = btn.getAttribute('data-domain-key');
+        if (selectedDomain === null || selectedDomain === key) {
+            btn.classList.remove('inactive');
+        } else {
+            btn.classList.add('inactive');
+        }
+    }
+}
 </script>
