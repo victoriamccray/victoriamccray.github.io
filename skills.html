@@ -327,4 +327,142 @@ function showInfo(skillId, isCore) {
 function hideInfo() {
     document.getElementById('infoPanel').classList.remove('visible');
 }
+
+function renderConstellation() {
+    svg.innerHTML = '';
+
+    // Draw connection lines from core to domains
+    for (var i = 0; i < skillsData.core.length; i++) {
+        var core = skillsData.core[i];
+        var domainKeys = Object.keys(skillsData.domains);
+        for (var j = 0; j < domainKeys.length; j++) {
+            var key = domainKeys[j];
+            var domain = skillsData.domains[key];
+            var line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+            line.setAttribute('x1', core.x);
+            line.setAttribute('y1', core.y);
+            line.setAttribute('x2', domain.centerX);
+            line.setAttribute('y2', domain.centerY);
+            line.setAttribute('stroke', 'rgba(148, 163, 184, 0.2)');
+            line.setAttribute('stroke-width', '0.1');
+            if (selectedDomain && selectedDomain !== key) {
+                line.style.opacity = '0.1';
+            }
+            svg.appendChild(line);
+        }
+    }
+
+    // Draw domain clusters
+    var domainKeys = Object.keys(skillsData.domains);
+    for (var i = 0; i < domainKeys.length; i++) {
+        var key = domainKeys[i];
+        var domain = skillsData.domains[key];
+        var g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+        if (selectedDomain && selectedDomain !== key) {
+            g.style.opacity = '0.3';
+        }
+
+        // Glow effect
+        var glow = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        glow.setAttribute('cx', domain.centerX);
+        glow.setAttribute('cy', domain.centerY);
+        glow.setAttribute('r', '15');
+        glow.setAttribute('fill', domain.color);
+        glow.setAttribute('opacity', '0.1');
+        g.appendChild(glow);
+
+        // Center dot
+        var center = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        center.setAttribute('cx', domain.centerX);
+        center.setAttribute('cy', domain.centerY);
+        center.setAttribute('r', '3');
+        center.setAttribute('fill', domain.color);
+        g.appendChild(center);
+
+        // Individual skills
+        for (var j = 0; j < domain.skills.length; j++) {
+            var pos = getSkillPosition(domain.centerX, domain.centerY, j, domain.skills.length);
+            
+            // Line to skill
+            var line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+            line.setAttribute('x1', domain.centerX);
+            line.setAttribute('y1', domain.centerY);
+            line.setAttribute('x2', pos.x);
+            line.setAttribute('y2', pos.y);
+            line.setAttribute('stroke', domain.color);
+            line.setAttribute('stroke-width', '0.15');
+            line.setAttribute('opacity', '0.4');
+            g.appendChild(line);
+
+            // Skill node
+            var node = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+            node.setAttribute('cx', pos.x);
+            node.setAttribute('cy', pos.y);
+            node.setAttribute('r', '1.5');
+            node.setAttribute('fill', domain.color);
+            node.classList.add('skill-node');
+            node.setAttribute('data-skill-id', key + '-' + j);
+            node.addEventListener('mouseenter', function(e) {
+                var skillId = e.target.getAttribute('data-skill-id');
+                showInfo(skillId, false);
+            });
+            node.addEventListener('mouseleave', hideInfo);
+            g.appendChild(node);
+        }
+
+        svg.appendChild(g);
+    }
+
+    // Draw core competencies
+    for (var i = 0; i < skillsData.core.length; i++) {
+        var skill = skillsData.core[i];
+        var g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+
+        // Glow
+        var glow = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        glow.setAttribute('cx', skill.x);
+        glow.setAttribute('cy', skill.y);
+        glow.setAttribute('r', skill.size);
+        glow.setAttribute('fill', skill.color);
+        glow.setAttribute('opacity', '0.2');
+        g.appendChild(glow);
+
+        // Main circle
+        var circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        circle.setAttribute('cx', skill.x);
+        circle.setAttribute('cy', skill.y);
+        circle.setAttribute('r', skill.size * 0.75);
+        circle.setAttribute('fill', skill.color);
+        circle.classList.add('skill-node');
+        circle.setAttribute('data-skill-id', skill.id);
+        circle.addEventListener('mouseenter', function(e) {
+            var skillId = e.target.getAttribute('data-skill-id');
+            showInfo(skillId, true);
+        });
+        circle.addEventListener('mouseleave', hideInfo);
+        g.appendChild(circle);
+
+        // Label
+        var text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        text.setAttribute('x', skill.x);
+        text.setAttribute('y', skill.y + skill.size + 2);
+        text.setAttribute('text-anchor', 'middle');
+        text.setAttribute('fill', 'white');
+        text.setAttribute('font-size', '2.5');
+        text.setAttribute('font-weight', 'bold');
+        text.textContent = skill.name;
+        g.appendChild(text);
+
+        var subtext = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        subtext.setAttribute('x', skill.x);
+        subtext.setAttribute('y', skill.y + skill.size + 3.5);
+        subtext.setAttribute('text-anchor', 'middle');
+        subtext.setAttribute('fill', '#cbd5e1');
+        subtext.setAttribute('font-size', '1.5');
+        subtext.textContent = skill.level + '% proficiency';
+        g.appendChild(subtext);
+
+        svg.appendChild(g);
+    }
+}
 </script>
