@@ -39,7 +39,532 @@ Beyond my technical work, I'm committed to democratizing access to STEM and comp
 
 View my CV [here](https://github.com/victoriamccray/victoriamccray.github.io/blob/999f93abf1963e2d1173d2a710f5c8222b5ce4bf/assets/img/Resume%20Victoria%20McCray%202025.pdf).
 
-*As you can see, my skills are off the charts!*
-<h2 align="center">Skills</h2>
-![CHART-LEVEL OF INTEREST AND EXPERIENCE TO DATE](assets/img/skills-chart.png)
+
+<style>
+    .constellation-container {
+    width: 100%;
+    min-height: 800px;
+    background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #1e293b 100%);
+    padding: 2rem;
+    border-radius: 12px;
+    position: relative;
+    margin: 2rem 0;
+}
+
+.constellation-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.constellation-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.constellation-header p {
+    color: #cbd5e1;
+    font-size: 1rem;
+}
+
+.domain-filters {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.domain-filter-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid;
+    background: transparent;
+}
+
+.domain-filter-btn:hover {
+    transform: scale(1.05);
+}
+
+.domain-filter-btn.inactive {
+    opacity: 0.4;
+}
+
+.constellation-svg {
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+
+.skill-node {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    pointer-events: all;
+}
+
+.skill-node:hover {
+    filter: brightness(1.2);
+}
+
+.info-panel {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(30, 41, 59, 0.95);
+    border: 1px solid #475569;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 500px;
+    width: 90%;
+    display: none;
+    z-index: 10;
+}
+
+.info-panel.visible {
+    display: block;
+}
+
+.info-panel h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.info-panel .domain-name {
+    color: #cbd5e1;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
+.proficiency-bar {
+    width: 100%;
+    height: 8px;
+    background: #475569;
+    border-radius: 9999px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    display: none;
+}
+
+.proficiency-fill {
+    height: 100%;
+    border-radius: 9999px;
+    transition: width 0.5s ease;
+}
+
+.tools-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tool-tag {
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+}
+
+.core-tool-tag {
+    background: #475569;
+    color: #e2e8f0;
+}
+
+@media (max-width: 768px) {
+    .constellation-container {
+        padding: 1rem;
+        min-height: 600px;
+    }
+    
+    .constellation-header h1 {
+        font-size: 1.75rem;
+    }
+    
+    .constellation-svg {
+        height: 400px;
+    }
+}
+</style>
+
+<div class="constellation-container">
+    <div class="constellation-header">
+        <h1>Technical Skills Constellation</h1>
+        <p>Hover over each node for details in the interactive map of expertise across cognitive science, bioinformatics, and data science. </p>
+        <div id="domainFilters"></div>
+    </div>
+    
+    <svg id="constellationSvg" viewBox="-5 -5 110 110"></svg>
+    
+    <div class="info-panel" id="infoPanel">
+        <h3 id="skillTitle"></h3>
+        <p class="domain-name" id="domainName"></p>
+        <div class="proficiency-bar" id="proficiencyBar">
+            <div class="proficiency-fill" id="proficiencyFill"></div>
+        </div>
+        <div class="tools-container" id="toolsContainer"></div>
+    </div>
+</div>
+
+<script>
+/*
+ * Skills Constellation Visualization
+ * Created with assistance from Claude AI (Anthropic, 2025)
+ * Customized for Victoria McCray's portfolio
+ */
+    var skillsData = {
+    core: [
+        { 
+            id: 'pipelines',
+            name: 'Data Engineering & ML Pipelines', 
+            level: 95, 
+            x: 50, 
+            y: 50, 
+            size: 8,
+            color: '#3b82f6',
+            tools: ['PySpark', 'Databricks', 'SQL', 'Snowflake', 'ETL/ELT']
+        },
+        { 
+            id: 'stats',
+            name: 'Statistical Modeling', 
+            level: 90, 
+            x: 35, 
+            y: 45, 
+            size: 7.5,
+            color: '#8b5cf6',
+            tools: ['R', 'Python', 'Biostatistics', 'Regression', 'ANOVA']
+        },
+        { 
+            id: 'viz',
+            name: 'Data Visualization', 
+            level: 95, 
+            x: 65, 
+            y: 45, 
+            size: 7.5,
+            color: '#06b6d4',
+            tools: ['Power BI', 'Plotly', 'D3.js', 'Dashboards', 'Qualtrics']
+        }
+    ],
+    domains: {
+        neuro: {
+            name: 'Cognitive Science & Computational Neuroscience',
+            color: '#ec4899',
+            centerX: 25,
+            centerY: 25,
+            skills: [
+                { name: 'Brain Connectivity Analysis', level: 85, tools: ['CONN', 'Network Analysis', 'fMRI'] },
+                { name: 'Neuropsychological Methods', level: 80, tools: ['Behavioral Analysis', 'Cognitive Testing'] },
+                { name: 'Reward Processing Models', level: 75, tools: ['Computational Models', 'Schizophrenia Research'] }
+            ]
+        },
+        bioinfo: {
+            name: 'Bioinformatics & Public Health',
+            color: '#10b981',
+            centerX: 75,
+            centerY: 25,
+            skills: [
+                { name: 'Clinical Data Analysis', level: 90, tools: ['Healthcare Claims', 'EHR Data', 'ICD Codes'] },
+                { name: 'Epidemiological Modeling', level: 85, tools: ['Prevalence Analysis', 'Mortality Models', 'Surveillance'] },
+                { name: 'Public Health Systems', level: 90, tools: ['Overdose Prevention', 'Disease Surveillance', 'Data Quality'] }
+            ]
+        },
+        applied: {
+            name: 'Applied Data Science',
+            color: '#f59e0b',
+            centerX: 25,
+            centerY: 75,
+            skills: [
+                { name: 'Machine Learning', level: 75, tools: ['Clustering', 'Classification', 'Text Analysis'] },
+                { name: 'Cloud Computing', level: 80, tools: ['AWS', 'Databricks', 'HPC'] },
+                { name: 'Algorithm Design', level: 75, tools: ['Optimization', 'Computational Methods'] }
+            ]
+        },
+        emerging: {
+            name: 'Emerging Technologies',
+            color: '#6366f1',
+            centerX: 75,
+            centerY: 75,
+            skills: [
+                { name: 'Generative AI', level: 70, tools: ['Prompt Engineering', 'LLM Integration', 'AI Workflows'] },
+                { name: 'Low-Code Development', level: 80, tools: ['Power Platform', 'Power Apps', 'SharePoint'] },
+                { name: 'Automation & Scraping', level: 85, tools: ['Web Scraping', 'API Integration', 'Python Automation'] }
+            ]
+        }
+    }
+};
+
+var selectedDomain = null;
+var svg = document.getElementById('constellationSvg');
+
+// Calculate position of skills around domain centers
+function getSkillPosition(centerX, centerY, index, total) {
+    var angle = (index / total) * 2 * Math.PI;
+    var radius = 10;
+    return {
+        x: centerX + Math.cos(angle) * radius,
+        y: centerY + Math.sin(angle) * radius
+    };
+}
+
+// Show info panel when hovering
+function showInfo(skillId, isCore) {
+    var panel = document.getElementById('infoPanel');
+    var title = document.getElementById('skillTitle');
+    var domainName = document.getElementById('domainName');
+    var proficiencyBar = document.getElementById('proficiencyBar');
+    var proficiencyFill = document.getElementById('proficiencyFill');
+    var toolsContainer = document.getElementById('toolsContainer');
+
+    if (isCore) {
+        var skill = null;
+        for (var i = 0; i < skillsData.core.length; i++) {
+            if (skillsData.core[i].id === skillId) {
+                skill = skillsData.core[i];
+                break;
+            }
+        }
+        if (!skill) return;
+        
+        title.textContent = skill.name;
+        domainName.textContent = skill.level + '% proficiency';
+        proficiencyBar.style.display = 'none';
+        
+        var toolsHtml = '';
+        for (var i = 0; i < skill.tools.length; i++) {
+            toolsHtml += '<span class="tool-tag core-tool-tag">' + skill.tools[i] + '</span>';
+        }
+        toolsContainer.innerHTML = toolsHtml;
+    } else {
+        var parts = skillId.split('-');
+        var domainKey = parts[0];
+        var skillIdx = parseInt(parts[1]);
+        var domain = skillsData.domains[domainKey];
+        if (!domain) return;
+        
+        var skill = domain.skills[skillIdx];
+        
+        title.textContent = skill.name;
+        domainName.textContent = domain.name;
+        proficiencyBar.style.display = 'block';
+        proficiencyFill.style.width = skill.level + '%';
+        proficiencyFill.style.backgroundColor = domain.color;
+        
+        var toolsHtml = '';
+        for (var i = 0; i < skill.tools.length; i++) {
+            toolsHtml += '<span class="tool-tag" style="background-color: ' + domain.color + '33; color: ' + domain.color + ';">' + skill.tools[i] + '</span>';
+        }
+        toolsContainer.innerHTML = toolsHtml;
+    }
+
+    panel.classList.add('visible');
+}
+
+function hideInfo() {
+    document.getElementById('infoPanel').classList.remove('visible');
+}
+
+function renderConstellation() {
+    svg.innerHTML = '';
+
+    // Draw connection lines from core to domains
+    for (var i = 0; i < skillsData.core.length; i++) {
+        var core = skillsData.core[i];
+        var domainKeys = Object.keys(skillsData.domains);
+        for (var j = 0; j < domainKeys.length; j++) {
+            var key = domainKeys[j];
+            var domain = skillsData.domains[key];
+            var line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+            line.setAttribute('x1', core.x);
+            line.setAttribute('y1', core.y);
+            line.setAttribute('x2', domain.centerX);
+            line.setAttribute('y2', domain.centerY);
+            line.setAttribute('stroke', 'rgba(148, 163, 184, 0.2)');
+            line.setAttribute('stroke-width', '0.1');
+            if (selectedDomain && selectedDomain !== key) {
+                line.style.opacity = '0.1';
+            }
+            svg.appendChild(line);
+        }
+    }
+
+    // Draw domain clusters
+    var domainKeys = Object.keys(skillsData.domains);
+    for (var i = 0; i < domainKeys.length; i++) {
+        var key = domainKeys[i];
+        var domain = skillsData.domains[key];
+        var g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+        if (selectedDomain && selectedDomain !== key) {
+            g.style.opacity = '0.3';
+        }
+
+        // Glow effect
+        var glow = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        glow.setAttribute('cx', domain.centerX);
+        glow.setAttribute('cy', domain.centerY);
+        glow.setAttribute('r', '15');
+        glow.setAttribute('fill', domain.color);
+        glow.setAttribute('opacity', '0.1');
+        glow.style.pointerEvents = 'none';  // Don't block hover
+        g.appendChild(glow);
+
+        // Center dot
+        var center = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        center.setAttribute('cx', domain.centerX);
+        center.setAttribute('cy', domain.centerY);
+        center.setAttribute('r', '3');
+        center.setAttribute('fill', domain.color);
+        center.style.pointerEvents = 'none';  // Don't block hover
+        g.appendChild(center);
+
+        // Individual skills
+        for (var j = 0; j < domain.skills.length; j++) {
+            var pos = getSkillPosition(domain.centerX, domain.centerY, j, domain.skills.length);
+            
+            // Line to skill
+            var line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+            line.setAttribute('x1', domain.centerX);
+            line.setAttribute('y1', domain.centerY);
+            line.setAttribute('x2', pos.x);
+            line.setAttribute('y2', pos.y);
+            line.setAttribute('stroke', domain.color);
+            line.setAttribute('stroke-width', '0.15');
+            line.setAttribute('opacity', '0.4');
+            line.style.pointerEvents = 'none';  // Don't block hover
+            g.appendChild(line);
+
+            // Create a larger invisible hit area for better hovering
+            var hitArea = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+            hitArea.setAttribute('cx', pos.x);
+            hitArea.setAttribute('cy', pos.y);
+            hitArea.setAttribute('r', '3');  // Larger invisible circle
+            hitArea.setAttribute('fill', 'transparent');
+            hitArea.setAttribute('stroke', 'none');
+            hitArea.style.cursor = 'pointer';
+            hitArea.setAttribute('data-skill-id', key + '-' + j);
+            
+            // Attach events to hit area
+            (function(skillId) {
+                hitArea.addEventListener('mouseenter', function() {
+                    showInfo(skillId, false);
+                });
+                hitArea.addEventListener('mouseleave', hideInfo);
+            })(key + '-' + j);
+            
+            g.appendChild(hitArea);
+
+            // Visible skill node (on top of hit area)
+            var node = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+            node.setAttribute('cx', pos.x);
+            node.setAttribute('cy', pos.y);
+            node.setAttribute('r', '1.5');
+            node.setAttribute('fill', domain.color);
+            node.style.pointerEvents = 'none';  // Let hit area handle events
+            g.appendChild(node);
+        }
+
+        svg.appendChild(g);
+    }
+
+    // Draw core competencies (keep this section the same as before)
+    for (var i = 0; i < skillsData.core.length; i++) {
+        var skill = skillsData.core[i];
+        var g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+
+        // Glow
+        var glow = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        glow.setAttribute('cx', skill.x);
+        glow.setAttribute('cy', skill.y);
+        glow.setAttribute('r', skill.size);
+        glow.setAttribute('fill', skill.color);
+        glow.setAttribute('opacity', '0.2');
+        g.appendChild(glow);
+
+        // Main circle
+        var circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        circle.setAttribute('cx', skill.x);
+        circle.setAttribute('cy', skill.y);
+        circle.setAttribute('r', skill.size * 0.75);
+        circle.setAttribute('fill', skill.color);
+        circle.classList.add('skill-node');
+        circle.setAttribute('data-skill-id', skill.id);
+        circle.addEventListener('mouseenter', function(e) {
+            var skillId = e.target.getAttribute('data-skill-id');
+            showInfo(skillId, true);
+        });
+        circle.addEventListener('mouseleave', hideInfo);
+        g.appendChild(circle);
+
+        // Label
+        var text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        text.setAttribute('x', skill.x);
+        text.setAttribute('y', skill.y + skill.size + 2);
+        text.setAttribute('text-anchor', 'middle');
+        text.setAttribute('fill', 'white');
+        text.setAttribute('font-size', '2.5');
+        text.setAttribute('font-weight', 'bold');
+        text.textContent = skill.name;
+        g.appendChild(text);
+
+        var subtext = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        subtext.setAttribute('x', skill.x);
+        subtext.setAttribute('y', skill.y + skill.size + 3.5);
+        subtext.setAttribute('text-anchor', 'middle');
+        subtext.setAttribute('fill', '#cbd5e1');
+        subtext.setAttribute('font-size', '1.5');
+        subtext.textContent = skill.level + '% proficiency';
+        g.appendChild(subtext);
+
+        svg.appendChild(g);
+    }
+}
+
+function renderFilters() {
+    var container = document.getElementById('domainFilters');
+    var domainKeys = Object.keys(skillsData.domains);
+    for (var i = 0; i < domainKeys.length; i++) {
+        var key = domainKeys[i];
+        var domain = skillsData.domains[key];
+        var btn = document.createElement('button');
+        btn.textContent = domain.name;
+        btn.className = 'domain-filter-btn';
+        btn.style.backgroundColor = domain.color + '33';
+        btn.style.borderColor = domain.color;
+        btn.style.color = domain.color;
+        btn.setAttribute('data-domain-key', key);
+        
+        btn.addEventListener('click', function(e) {
+            var clickedKey = e.target.getAttribute('data-domain-key');
+            selectedDomain = selectedDomain === clickedKey ? null : clickedKey;
+            updateFilters();
+            renderConstellation();
+        });
+        
+        container.appendChild(btn);
+    }
+}
+
+function updateFilters() {
+    var btns = document.querySelectorAll('.domain-filter-btn');
+    for (var i = 0; i < btns.length; i++) {
+        var btn = btns[i];
+        var key = btn.getAttribute('data-domain-key');
+        if (selectedDomain === null || selectedDomain === key) {
+            btn.classList.remove('inactive');
+        } else {
+            btn.classList.add('inactive');
+        }
+    }
+}
+// Run when page loads
+renderFilters();
+renderConstellation();
+updateFilters();
+</script>
 
