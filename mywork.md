@@ -6,8 +6,6 @@ subtitle: Below are my previous roles and several projects from my work.
 
 I have over five years of progressive experience in advanced analytics and research across healthcare, life sciences, and technology sectors. In my current role as a health data scientist supporting federal public health initiatives, I develop data quality pipelines and statistical analyses for national systems, leading technical development of analytics frameworks and serving as a subject matter expert in Python and R programming for cross-functional teams of behavioral scientists, epidemiologists, neurologists, and data engineers. Previously, I conducted user research and product analytics in medical device development and technology product optimization, where I performed advanced statistical modeling including regression, cluster analysis, and hypothesis testing on large-scale datasets. My computational research background includes functional connectivity analysis of clinical neuroimaging data, as well as data collection, preprocessing, and statistical analysis in cognitive psychology and psychophysiology research at university laboratories. I also serve on the leadership team for Black In Neuro, a grassroots non-profit organization focused on supporting Black trainees in neuroscience, where I oversee financial planning and reporting.
 
-*Visualization of my professional experience over time and my interest*
-![CHART-LEVEL OF INTEREST AND EXPERIENCE TO DATE](assets/img/experience-chart.png)
 
 Below are the organizations from my previous experience for more details.
 
