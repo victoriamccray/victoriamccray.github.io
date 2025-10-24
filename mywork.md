@@ -31,7 +31,8 @@ With the Centers for Disease Control and Prevention (CDC), I developed statistic
 Technical Stack: PySpark, Python, R, SQL, Databricks, Snowflake, 
 Power BI, GitHub
 
-[View CDC Public Dashboard](https://www.cdc.gov/overdose-prevention/data-research/facts-stats/dose-dashboard-nonfatal-discharge-data.html)
+<h3 align="center">[View CDC Public Dashboard](https://www.cdc.gov/overdose-prevention/data-research/facts-stats/dose-dashboard-nonfatal-discharge-data.html)</h3>
+
 <h2 align="center">Black In Neuro</h2>
 
 Black In Neuro is a grassroots organization dedicated to providing resources, building community, and celebrating the contributions of black individuals in the neuroscience fields. I currently serve on the Board of Directors for the non-profit Black In Neuro where I oversee financial planning and reporting for the organization.
