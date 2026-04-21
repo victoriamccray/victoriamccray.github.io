@@ -18,6 +18,10 @@ subtitle: Contact Me and FAQ
 
 ## Frequently Asked Questions
 
+### Where are you based?
+
+I'm currently based in Atlanta, GA.
+
 ### When do you finish your Master's program?
 
 I expect to complete my program and graduate with my MSc in 2026.
