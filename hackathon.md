@@ -40,7 +40,7 @@ Feb 10 - 21, 2025
 ## **Facilitators**  
 
 **Victoria McCray**  
-*Health Data Scientist | Director, Black In Neuro | MS Candidate in Bioinformatics, Northeastern University*  
+*Health Data Scientist | Former Director, Black In Neuro | MS in Bioinformatics, Northeastern University*  
 
 **Najja Marshall, PhD**  
 *Research Scientist, Meta Reality Labs*  
