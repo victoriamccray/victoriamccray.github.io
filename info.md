@@ -22,13 +22,6 @@ subtitle: Contact Me and FAQ
 
 I'm currently based in Atlanta, GA.
 
-### When do you finish your Master's program?
-
-I expect to complete my program and graduate with my MSc in 2026.
-
-### Is your Board Directorship with Black In Neuro full-time?
-
-No. As a startup non-profit, Black In Neuro is primarily volunteer-run and most of the team volunteers their time where most comfortable, including the Board of Directors.
 
 ### What were the results of your thesis?
 
