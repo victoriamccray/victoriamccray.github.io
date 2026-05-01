@@ -118,8 +118,12 @@ Feb 10 - 21, 2025
 
 A compiled opportunity list for relevant courses, trainings, and continued learning from TReND in Africa, Black In Neuro, African Brain Data Network, and other organizations: [https://docs.google.com/spreadsheets/d/1HC4_1JtP9Md8OreAJPa7eFLNZDCsg4-gwbw0l6PCt-c/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1HC4_1JtP9Md8OreAJPa7eFLNZDCsg4-gwbw0l6PCt-c/edit?usp=sharing)
 
-## Outcomes
-Check out a brief outcomes report for the hackathon [here](https://github.com/victoriamccray/victoriamccray.github.io/blob/a195d67f2aa97d59fc566b4401ef822ba91de309/assets/img/Hackathon%20Outcomes%20Report.pdf)!
+## Outcomes Report
+
+<iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/victoriamccray/victoriamccray.github.io/master/assets/img/Hackathon%20Outcomes%20Report.pdf&embedded=true" 
+  width="100%" height="600px" frameborder="0"></iframe>
+
+<a href="/assets/img/Hackathon%20Outcomes%20Report.pdf" download>Download Outcomes Report</a>
 
 ## Acknowledgements
 This project is made possible through the support of multiple collaborative partners. 
