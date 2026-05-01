@@ -15,9 +15,9 @@ My path into computational research started with an unexpected realization: ling
 For me, the most interesting problems live at the boundaries between fields. Understanding cognition may require neuroscience, but also biology, statistics, computer science, linguistics, philosophy, and increasingly, ethics.
 
 ### What I Do Now
-As a health data scientist at Guidehouse, I architect data quality frameworks and statistical pipelines for national public health surveillance systems. I work with epidemiologists, neurologists, and data engineers to transform messy, large-scale health data into reliable insights that inform policy decisions and community care. This includes developing prevalence estimation methods for neurological diseases at the national level, and building systems that track overdose patterns across jurisdictions.
+As a health data scientist at Guidehouse, I architected data quality frameworks and statistical pipelines for national public health surveillance systems. I worked with epidemiologists, neurologists, and data engineers to transform messy, large-scale health data into reliable insights that inform policy decisions and community care. This included developing prevalence estimation methods for neurological diseases at the national level, and building systems that track overdose patterns across jurisdictions.
 
-Concurrently, I'm completing my MSc in Bioinformatics at Northeastern to grow my expertise in computational biology and statistical genomics. I'm particularly interested in how multi-omic approaches and network analysis can generate insight into disease mechanisms by finding meaningful structure in high-dimensional, noisy data.
+Concurrently, I completed my MSc in Bioinformatics at Northeastern to grow my expertise in computational biology and statistical genomics. I'm particularly interested in how multi-omic approaches and network analysis can generate insight into disease mechanisms by finding meaningful structure in high-dimensional, noisy data.
 
 ### Building Research Capacity
 Beyond my technical work, I'm committed to democratizing access to STEM and computational research tools. In February 2025, I led a two-week neuroimaging data science program at Lilongwe University for Agriculture and Natural Resources in Malawi, teaching Python, neuroimaging analysis, and research ethics.
