@@ -22,6 +22,9 @@ subtitle: Contact Me and FAQ
 
 I'm currently based in Atlanta, GA.
 
+### Are you open to work?
+
+Yes! I would be most excited for Sr. Data Scientist, Research Engineer, or Bioinformatics roles, but I would be happy to discuss different opportunities.
 
 ### What were the results of your thesis?
 
