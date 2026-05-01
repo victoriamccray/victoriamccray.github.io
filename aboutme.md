@@ -4,14 +4,8 @@ title: About Me
 subtitle: 
 ---
 
-### I am currently...
 
-- Health Data Scientist at Guidehouse
-- MSc Candidate in Bioinformatics
-- Finance Director at Black In Neuro
-
-
-My name is Victoria McCray, and I'm a bioinformatics researcher who thrives at intersections between disciplines, between methods, between the patterns we can measure and the meanings we can extract from noise. My work spans computational neuroscience, public health data science, and open science education. I'm currently a Master of Science Candidate in Bioinformatics at Northeastern University. I earned my Bachelor of Science in Psychology (Honors) with a minor in Data Science from Northeastern University. I joined the Black In Neuro team in 2021 and now serve as Director of Finance in my second term.
+My name is Victoria McCray, MSc, and I'm a bioinformatics researcher who thrives at intersections between disciplines, between methods, between the patterns we can measure and the meanings we can extract from noise. My work spans computational neuroscience, public health data science, and open science education. I completed my Master of Science in Bioinformatics at Northeastern University. I earned my Bachelor of Science in Psychology (Honors) with a minor in Data Science from Northeastern University. I joined the Black In Neuro team in 2021 and now serve as Director of Finance in my second term.
 
 ### Research Journey
 Currently, I develop statistical pipelines and machine learning methods for large-scale biomedical data. This means analyzing neuroimaging studies of psychiatric disorders one day, processing millions of health records for federal surveillance systems the next, and supporting open and transparent data science capacity initiatives on another day. The problems change, but the underlying question stays the same: How do we find signal in noise?
