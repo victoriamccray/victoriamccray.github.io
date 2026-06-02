@@ -10,6 +10,6 @@ title: Research
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTY52NSXvRC2oGbGUwuS8eMLnex6nWTVobudkoehTwcUq9Pih4LXOMnlitHBcNINg/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="500px" allowfullscreen="true"></iframe>
 
-<iframe src="https://victoriamccray.github.io/assets/img/honors_thesis.pdf" width="100%" height="600px"></iframe>
+<iframe src="https://victoriamccray.github.io/assets/img/honors thesis.pdf" width="100%" height="600px"></iframe>
 
 </div>
