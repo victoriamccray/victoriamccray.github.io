@@ -3,7 +3,7 @@ layout: page
 title: Creative Writing
 ---
 
-## Introvirgo
+## Introvirgo™
 
 A memoir anthology collection in progress.
 
