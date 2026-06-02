@@ -14,7 +14,7 @@ Below are the organizations from my previous experience for more details.
 
 <h2 align="center">Guidehouse Health</h2>
 
-I joined Guidehouse as a Data Scientist on the Health Data Science and Analytics team in February 2024. Guidehouse provides consulting to public health, private sector, state and federal health agencies. As a consultant in the Guidehouse Health segment, my work focuses on the delivery of informatics solutions for life science domains.
+I joined Guidehouse as a Data Scientist on the Health Data Science and Analytics team in February 2024. Guidehouse provides consulting to public health, private sector, state and federal health agencies. As a consultant in the Guidehouse Health segment, my work focused on the delivery of informatics solutions for life science domains.
 
 <h3 align="center">Supporting the CDC</h3>
 
