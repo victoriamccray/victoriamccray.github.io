@@ -5,11 +5,11 @@ title: Creative Writing
 
 ## Introvirgo
 
-A memoir anthology in progress.
+A memoir anthology collection in progress.
 
-### Setup
+### Chapter 1: Setup
 
-[the piece itself, pasted in full]
+<iframe src="https://victoriamccray.github.io/assets/img/setup.pdf" width="100%" height="800px"></iframe>
 
 ---
 
