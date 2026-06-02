@@ -23,7 +23,9 @@ navbar-links:
   Home: "https://victoriamccray.github.io/"
   About Me: "aboutme"
   My Work: "mywork"
-  Hackathon: "hackathon"
+  Writing: "writing"
+    - Research: "writing/research"
+    - Creative: "writing/creative"
   #Just for Fun: "justforfun"
   More Info: "info"
   #Resources:
