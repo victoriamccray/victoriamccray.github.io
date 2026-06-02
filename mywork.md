@@ -8,7 +8,7 @@ I have over seven years of progressive experience in advanced analytics and rese
 
 ## Research Portfolio
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT_FQzwBXKKbciiin6UvSn_e19eOApYKrAytJZkgWADs3pfQcuqpk-0nCGgIVLgtJCPBE0RjlzVR62b/pubembed?start=false&loop=true&delayms=10000" frameborder="0" width="760" height="450" allowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT_FQzwBXKKbciiin6UvSn_e19eOApYKrAytJZkgWADs3pfQcuqpk-0nCGgIVLgtJCPBE0RjlzVR62b/pubembed?start=false&loop=true&delayms=10000" frameborder="0" width="100%" height="450" allowfullscreen="true"></iframe>
 
 Below are the organizations from my previous experience for more details.
 
