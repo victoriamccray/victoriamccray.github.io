@@ -18,7 +18,7 @@ I joined Guidehouse as a Data Scientist on the Health Data Science and Analytics
 
 <h3 align="center">Supporting the CDC</h3>
 
-Guidehouse Health (2024-Present)
+Guidehouse Health (2024-2026)
 
 Health Data Scientist | Public Health Advisory | AI & Data Science Technology
 
