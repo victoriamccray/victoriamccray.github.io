@@ -5,7 +5,7 @@ title: Research
 
 <div style="border: 1px solid #ddd; border-radius: 8px; padding: 24px; margin-bottom: 40px;">
 <h3>Community-Driven Programming to Strengthen STEM Conference Experiences: A First Look at BlackInNeuro and BlackInMicro Event Outcomes</h3>
-<p>McCray, V.P., Dukes, A., & Pittman, N. <em>Oxford Open Neuro</em>, Black In Neuro Scientist Special Issue. In press, 2026.</p>
+<p>McCray, V.P., Dukes, A., & Pittman, N. <em>Oxford Open Neuro</em>, Special Issue. In press, 2026.</p>
 <p>This study establishes a program evaluation framework for Black scientist-led community-driven programming, examining belonging, inclusion, accessibility, and career value across five BlackInX conference events using mixed-methods analysis.</p>
 <iframe src="https://victoriamccray.github.io/assets/img/blackinx_program_evaluation.pdf" width="100%" height="600px"></iframe>
 </div>
