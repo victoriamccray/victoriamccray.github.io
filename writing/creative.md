@@ -3,6 +3,8 @@ layout: page
 title: Creative Writing
 ---
 
+After working with generative AI a ton the past couple years, I have come to value my own voice and creativity. So, everything on this page is an original, I promise.
+
 ## Introvirgo™
 
 A memoir anthology collection in progress.
