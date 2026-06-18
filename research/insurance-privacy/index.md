@@ -20,11 +20,20 @@ Massachusetts and Florida comparison pending.
 - Opt-out step count coding across 17 pathways
 - Three interactive visualizations
 
+### Scoring Flowchart
 <iframe
   src="consent-flow.html"
   width="100%"
   height="500"
   style="border: 1px solid #2a2a2a; border-radius: 6px;">
+</iframe>
+
+
+### Policy Data Scope and Destination
+<iframe src="/research/insurance-privacy/data_scope_destinations.html" 
+        width="100%" height="700" 
+        frameborder="0"
+        style="border: 1px solid #e0e0e0; border-radius: 6px;">
 </iframe>
 
 ## Findings summary
@@ -46,11 +55,11 @@ Coded June 17, 2026 using claude-sonnet-4-6 with structured codebook.
 | Cigna | Data Sharing Notice | Provider Access Data Sharing Opt-Out | 2 | Default opt-in; prior disclosures cannot be undone | Yes |
 | Cigna | Data Sharing Notice | Third-Party App Data Authorization | 0 | No opt-out available; prior disclosures cannot be undone; insurer may decline | No |
 | Cigna | Global Health Benefits Notice | Marketing use of PHI | 0 | No opt-out available; default opt-in | Yes |
-| Cigna | HIPAA Notice | Opt-out of disclosure to individuals involved in care | 2 | Default opt-in | **Yes** |
-| Cigna | GLB Notice | No opt-out pathway described | **0** | No opt-out available : federal law cited | No |
+| Cigna | HIPAA Notice | Opt-out of disclosure to individuals involved in care | 2 | Default opt-in | Yes |
+| Cigna | GLB Notice | No opt-out pathway described | 0 | No opt-out available : federal law cited | No |
 | Humana | HIPAA Notice | Opt-out of health-related benefit contacts | 1 | Default opt-in; mechanism not described | No |
 | UnitedHealthcare | Web Privacy Policy | Location Data Opt-Out (Mobile Device) | 1 | Prior disclosures cannot be undone; loss of functionality | No |
-| UnitedHealthcare | HIPAA Notice | Revoke written permission for special uses | 3 | Prior disclosures cannot be undone; insurer may decline | **Yes** |
+| UnitedHealthcare | HIPAA Notice | Revoke written permission for special uses | 3 | Prior disclosures cannot be undone; insurer may decline | Yes |
 | UnitedHealthcare | HIPAA Notice | Request limit on use or sharing of health information | 3 | Insurer may decline | No |
 | UnitedHealthcare | HIPAA Notice | Request confidential communications change | 3 | None | No |
 
