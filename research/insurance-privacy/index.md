@@ -62,3 +62,14 @@ All pathways coded from document text only. Steps not described in documents wer
 If you want to support expansion to Massachusetts and Florida,
 or additional insurer coverage, contact:
 [your email]
+
+## Access & Sharing
+
+This is a controlled working draft intended for:
+- research collaborators
+- potential funders and sponsors
+- invited reviewers
+
+This page is intentionally not indexed and not linked from the main site navigation.
+
+If you were forwarded this link, please do not redistribute without permission.
