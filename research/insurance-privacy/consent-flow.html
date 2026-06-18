@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({ startOnLoad: true, theme: "dark" });
+  </script>
+</head>
+<body style="background:#0d0d0d; color:white;">
+  <div class="mermaid">
+    flowchart TD
+    A[Opt-Out Pathway in Document] --> B[Identify Discrete Actions]
+    B --> C1[Locate Step]
+    B --> C2[Act Step]
+    B --> C3[Verify Step]
+    C1 --> D[Step Count Accumulation]
+    C2 --> D
+    C3 --> D
+    D --> E[Total Steps]
+    E --> F[Compare to Opt-In Pathway]
+    F --> G{Asymmetry?}
+    G -->|Yes| H[Flag: Consent Asymmetry]
+    G -->|No| I[No asymmetry flag]
+    E --> J[Independent Flag System]
+    J --> J1[Waiting period]
+    J --> J2[No digital opt-out]
+    J --> J3[Insurer discretion]
+    J --> J4[Irreversible disclosure]
+  </div>
+</body>
+</html>
