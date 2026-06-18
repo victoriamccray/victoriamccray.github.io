@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insurance Data Scope and Destinations</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 13px;
+    color: #1a1a1a;
+    background: #fff;
+    padding: 24px 16px;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { background: #111; color: #e0d8cc; }
+    .scope-table th { color: #8a7e6e; border-bottom-color: #2a2a2a; }
+    .scope-table td { border-bottom-color: #2a2a2a; }
+    .scope-table td.category { color: #6a5f50; }
+    .scope-table td.label { color: #e0d8cc; }
+    .badge-no { background: #1a1a1a; color: #555; border: 1px solid #2a2a2a; }
+    .filter-btn { background: #1a1a1a; color: #8a7e6e; border-color: #2a2a2a; }
+    .filter-btn.active { background: #2a2a2a; color: #e0d8cc; border-color: #444; }
+    .footnote { color: #6a5f50; }
+    .legend-item { color: #8a7e6e; }
+  }
+  .scope-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  .scope-table th {
+    font-size: 10px;
+    font-weight: 600;
+    color: #666;
+    padding: 8px 10px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    white-space: nowrap;
+  }
+  .scope-table th.row-header { text-align: left; min-width: 180px; }
+  .scope-table td { padding: 6px 10px; border-bottom: 1px solid #f0f0f0; vertical-align: middle; }
+  .scope-table td.category {
+    font-size: 10px;
+    font-weight: 600;
+    color: #888;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding-top: 18px;
+    padding-bottom: 4px;
+    border-bottom: none;
+  }
+  .scope-table td.label { font-size: 12px; color: #1a1a1a; line-height: 1.4; }
+  .scope-table td.cell { text-align: center; }
+  .badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 2px 7px;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+  .badge-yes { background: #EAF3DE; color: #27500A; }
+  .badge-partial { background: #FAEEDA; color: #633806; }
+  .badge-no { background: #f5f5f5; color: #999; }
+  .badge-flag { background: #FCEBEB; color: #791F1F; }
+  .source-tag { font-size: 10px; color: #aaa; display: block; margin-top: 2px; }
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+  .filter-btn {
+    font-size: 11px;
+    padding: 5px 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #666;
+    cursor: pointer;
+  }
+  .filter-btn.active { background: #f0f0f0; color: #1a1a1a; border-color: #bbb; font-weight: 600; }
+  .legend { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 16px; font-size: 11px; color: #666; }
+  .legend-item { display: flex; align-items: center; gap: 5px; }
+  .legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+  .section-divider {
+    font-size: 11px;
+    font-weight: 700;
+    color: #c0392b;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 22px 0 6px;
+    border-bottom: 2px solid #c0392b;
+    margin-bottom: 4px;
+  }
+  .footnote { font-size: 10px; color: #999; line-height: 1.6; margin-top: 16px; }
+</style>
+</head>
+<body>
+
+<div class="filters" id="filters">
+  <button class="filter-btn active" onclick="filterRows('all', this)">All</button>
+  <button class="filter-btn" onclick="filterRows('beyond-hipaa', this)">Beyond HIPAA only</button>
+  <button class="filter-btn" onclick="filterRows('multiple', this)">3+ insurers</button>
+  <button class="filter-btn" onclick="filterRows('destinations', this)">Destinations only</button>
+</div>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:#639922"></div>Explicitly collected / shared</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#BA7517"></div>Partial or conditional</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#E24B4A"></div>Explicitly prohibited</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#f5f5f5; border: 1px solid #ddd"></div>Not described in available documents</div>
+</div>
+
+<div style="overflow-x: auto;">
+<table class="scope-table" id="scopeTable">
+  <thead>
+    <tr>
+      <th class="row-header">Data type / destination</th>
+      <th>Anthem<br><span style="font-weight:400; font-size:9px;">BCBS</span></th>
+      <th>United<br><span style="font-weight:400; font-size:9px;">Healthcare</span></th>
+      <th>Aetna</th>
+      <th>Cigna</th>
+      <th>Humana</th>
+    </tr>
+  </thead>
+  <tbody id="tableBody">
+
+    <tr class="cat-row scope-row"><td colspan="6" class="category">HIPAA-covered (baseline)</td></tr>
+
+    <tr class="scope-row" data-hipaa="true" data-count="5" data-type="scope">
+      <td class="label">Claims & treatment history<span class="source-tag">HIPAA Notice</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+    </tr>
+    <tr class="scope-row" data-hipaa="true" data-count="5" data-type="scope">
+      <td class="label">Medication & prescription data<span class="source-tag">HIPAA Notice</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+    </tr>
+    <tr class="scope-row" data-hipaa="true" data-count="3" data-type="scope">
+      <td class="label">Substance use disorder records<span class="source-tag">HIPAA Notice (42 CFR Part 2)</span></td>
+      <td class="cell"><span class="badge badge-partial">Partial</span></td>
+      <td class="cell"><span class="badge badge-partial">Partial</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-partial">Partial</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+    <tr class="scope-row" data-hipaa="true" data-count="4" data-type="scope">
+      <td class="label">Genetic information<span class="source-tag">HIPAA Notice</span></td>
+      <td class="cell"><span class="badge badge-flag">Prohibited for underwriting</span></td>
+      <td class="cell"><span class="badge badge-flag">Prohibited for underwriting</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-flag">Prohibited for underwriting</span></td>
+      <td class="cell"><span class="badge badge-flag">Prohibited for underwriting</span></td>
+    </tr>
+
+    <tr class="cat-row scope-row"><td colspan="6" class="category">Identity & financial</td></tr>
+
+    <tr class="scope-row" data-hipaa="false" data-count="5" data-type="scope">
+      <td class="label">Social Security number<span class="source-tag">Applications & forms</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+    </tr>
+    <tr class="scope-row" data-hipaa="false" data-count="2" data-type="scope">
+      <td class="label">Credit bureau data<span class="source-tag">Cigna GLB Notice; Humana HIPAA Notice</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+    </tr>
+    <tr class="scope-row" data-hipaa="false" data-count="1" data-type="scope">
+      <td class="label">Medical Information Bureau data<span class="source-tag">Humana HIPAA Notice</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+    </tr>
+
+    <tr class="cat-row scope-row"><td colspan="6" class="category">Demographic & identity</td></tr>
+
+    <tr class="scope-row" data-hipaa="false" data-count="1" data-type="scope">
+      <td class="label">Race, ethnicity, language (collected & inferred)<span class="source-tag">Anthem HIPAA Notice</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+    <tr class="scope-row" data-hipaa="false" data-count="1" data-type="scope">
+      <td class="label">Sexual orientation & gender identity<span class="source-tag">Anthem HIPAA Notice</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+    <tr class="scope-row" data-hipaa="false" data-count="2" data-type="scope">
+      <td class="label">Demographic data (third-party sourced)<span class="source-tag">Web / Online Privacy Policy</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+    <tr class="scope-row" data-hipaa="false" data-count="1" data-type="scope">
+      <td class="label">Religious affiliation<span class="source-tag">Cigna HIPAA Notice (facility directory)</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+
+    <tr class="cat-row scope-row"><td colspan="6" class="category">Device & behavioral (non-HIPAA)</td></tr>
+
+    <tr class="scope-row" data-hipaa="false" data-count="2" data-type="scope">
+      <td class="label">GPS & real-time location<span class="source-tag">Web / Online Privacy Policy</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-partial">Non-precise</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+    <tr class="scope-row" data-hipaa="false" data-count="2" data-type="scope">
+      <td class="label">Browsing behavior across websites<span class="source-tag">Web / Online Privacy Policy</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+    <tr class="scope-row" data-hipaa="false" data-count="1" data-type="scope">
+      <td class="label">Screen touch patterns & frequency<span class="source-tag">UHC Online Privacy Policy</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+    <tr class="scope-row" data-hipaa="false" data-count="2" data-type="scope">
+      <td class="label">App usage patterns<span class="source-tag">Web / Online Privacy Policy</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+    <tr class="scope-row" data-hipaa="false" data-count="2" data-type="scope">
+      <td class="label">Device identifiers (UDID, Android ID, IP)<span class="source-tag">Web / Online Privacy Policy</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+
+    <tr class="cat-row scope-row"><td colspan="6" class="category">Third-party & commercial data</td></tr>
+
+    <tr class="scope-row" data-hipaa="false" data-count="3" data-type="scope">
+      <td class="label">Publicly or commercially available data<span class="source-tag">HIPAA or Web Privacy Policy</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+    <tr class="scope-row" data-hipaa="false" data-count="2" data-type="scope">
+      <td class="label">Offline vendor data combined with online data<span class="source-tag">Web / Online Privacy Policy</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+    <tr class="scope-row" data-hipaa="false" data-count="1" data-type="scope">
+      <td class="label">Aggregate data sold to third parties<span class="source-tag">Cigna HIPAA Notice</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+    <tr class="scope-row" data-hipaa="false" data-count="1" data-type="scope">
+      <td class="label">Payment received for data disclosures<span class="source-tag">Cigna HIPAA Notice</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+
+    <tr class="dest-row"><td colspan="6" class="section-divider">Data sharing destinations</td></tr>
+    <tr class="cat-row dest-row"><td colspan="6" class="category">Healthcare & operations</td></tr>
+
+    <tr class="dest-row" data-hipaa="false" data-count="5" data-type="dest">
+      <td class="label">Treating providers & hospitals<span class="source-tag">HIPAA Notice — all insurers</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+    </tr>
+    <tr class="dest-row" data-hipaa="false" data-count="5" data-type="dest">
+      <td class="label">Business associates & service providers<span class="source-tag">HIPAA Notice — all insurers</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+    </tr>
+    <tr class="dest-row" data-hipaa="false" data-count="5" data-type="dest">
+      <td class="label">Employer (plan sponsor)<span class="source-tag">HIPAA Notice — all insurers</span></td>
+      <td class="cell"><span class="badge badge-partial">Summary only</span></td>
+      <td class="cell"><span class="badge badge-partial">Summary only</span></td>
+      <td class="cell"><span class="badge badge-partial">Summary only</span></td>
+      <td class="cell"><span class="badge badge-partial">Summary only</span></td>
+      <td class="cell"><span class="badge badge-partial">Summary only</span></td>
+    </tr>
+
+    <tr class="cat-row dest-row"><td colspan="6" class="category">Government & law enforcement</td></tr>
+
+    <tr class="dest-row" data-hipaa="false" data-count="5" data-type="dest">
+      <td class="label">Law enforcement agencies<span class="source-tag">HIPAA Notice — all insurers</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+    </tr>
+    <tr class="dest-row" data-hipaa="false" data-count="3" data-type="dest">
+      <td class="label">Correctional institutions<span class="source-tag">HIPAA Notice — Anthem, United, Cigna</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+    <tr class="dest-row" data-hipaa="false" data-count="3" data-type="dest">
+      <td class="label">Military & national security authorities<span class="source-tag">HIPAA Notice</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+    </tr>
+    <tr class="dest-row" data-hipaa="false" data-count="5" data-type="dest">
+      <td class="label">Public health agencies<span class="source-tag">HIPAA Notice — all insurers</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+    </tr>
+
+    <tr class="cat-row dest-row"><td colspan="6" class="category">Commercial & data economy</td></tr>
+
+    <tr class="dest-row" data-hipaa="false" data-count="2" data-type="dest">
+      <td class="label">Third-party advertisers<span class="source-tag">Web / Online Privacy Policy — UHC, Aetna</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+    <tr class="dest-row" data-hipaa="false" data-count="5" data-type="dest">
+      <td class="label">Life sciences & research organizations<span class="source-tag">HIPAA Notice — all insurers</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+    </tr>
+    <tr class="dest-row" data-hipaa="false" data-count="2" data-type="dest">
+      <td class="label">Analytics vendors (behavioral & device data)<span class="source-tag">Web / Online Privacy Policy — UHC, Aetna</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+    <tr class="dest-row" data-hipaa="false" data-count="2" data-type="dest">
+      <td class="label">Credit bureaus<span class="source-tag">Cigna GLB Notice; Humana HIPAA Notice</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+    </tr>
+    <tr class="dest-row" data-hipaa="false" data-count="2" data-type="dest">
+      <td class="label">Corporate affiliates & subsidiaries<span class="source-tag">Web / Online Privacy Policy; GLB Notice</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes (CVS Health)</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes (Evernorth)</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+    <tr class="dest-row" data-hipaa="false" data-count="2" data-type="dest">
+      <td class="label">Acquiring entity in merger or acquisition<span class="source-tag">Web / Online Privacy Policy — Aetna, Cigna</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+    <tr class="dest-row" data-hipaa="false" data-count="2" data-type="dest">
+      <td class="label">Third-party health apps (outside HIPAA)<span class="source-tag">UHC Share My Health Data Notice; Cigna Data Sharing Notice</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+    <tr class="dest-row" data-hipaa="false" data-count="1" data-type="dest">
+      <td class="label">Joint marketing partners (non-affiliated financial companies)<span class="source-tag">Cigna GLB Notice</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+      <td class="cell"><span class="badge badge-yes">Yes</span></td>
+      <td class="cell"><span class="badge badge-no">—</span></td>
+    </tr>
+
+  </tbody>
+</table>
+</div>
+
+<p class="footnote">
+  Source: Document analysis of member-facing privacy policies, Georgia primary case, documents accessed June 2026.
+  Device and behavioral data for UnitedHealthcare and Aetna sourced from web and mobile privacy policies reviewed in session (not uploaded PDFs).
+  Cells marked — indicate the data type or destination is not described in available documents, not confirmed absence.
+  All claims sourced directly from insurer documents; no inferences made beyond document text.
+</p>
+
+<script>
+function filterRows(type, btn) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  const rows = document.querySelectorAll('#tableBody tr:not(.cat-row):not(.dest-row[colspan])');
+  rows.forEach(row => {
+    if (row.classList.contains('cat-row')) return;
+    const isHipaa = row.dataset.hipaa === 'true';
+    const count = parseInt(row.dataset.count || 0);
+    const rowType = row.dataset.type;
+    if (type === 'all') {
+      row.style.display = '';
+    } else if (type === 'beyond-hipaa') {
+      row.style.display = (isHipaa || rowType === 'dest') ? 'none' : '';
+    } else if (type === 'multiple') {
+      row.style.display = count >= 3 ? '' : 'none';
+    } else if (type === 'destinations') {
+      row.style.display = rowType === 'scope' ? 'none' : '';
+    }
+  });
+  document.querySelectorAll('.cat-row').forEach(cat => {
+    let next = cat.nextElementSibling;
+    let anyVisible = false;
+    while (next && !next.classList.contains('cat-row') && !next.classList.contains('dest-row')) {
+      if (next.style.display !== 'none') anyVisible = true;
+      next = next.nextElementSibling;
+    }
+    cat.style.display = anyVisible ? '' : 'none';
+  });
+}
+</script>
+
+</body>
+</html>
