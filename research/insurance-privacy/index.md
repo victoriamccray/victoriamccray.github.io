@@ -60,8 +60,9 @@ All pathways coded from document text only. Steps not described in documents wer
 ## Support this research
 
 If you want to support expansion to Massachusetts and Florida,
-or additional insurer coverage, contact:
-[your email]
+or additional insurer coverage, please consider sponsoring.
+
+<iframe src="https://github.com/sponsors/victoriamccray/card" title="Sponsor victoriamccray" height="225" width="600" style="border: 0;"></iframe>
 
 ## Access & Sharing
 
