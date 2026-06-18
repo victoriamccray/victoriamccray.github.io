@@ -5,6 +5,26 @@ subtitle: Working paper. Not for public distribution.
 published: true
 ---
 
+## Overview
+
+This working paper analyzes data collection, consent mechanics, and opt-out design in member-facing privacy policies from five major private insurers operating in Georgia: Anthem Blue Cross Blue Shield, UnitedHealthcare, Aetna, Cigna, and Humana.
+
+The study focuses on how privacy rights are operationalized in practice through document-defined procedures, with attention to populations that may experience elevated exposure to insurer data systems due to structural vulnerability in health and social service contexts.
+
+**Population of focus.** Adults with chronic conditions, including those with intersecting histories of system involvement such as incarceration, housing instability, and substance use disorder. These groups are overrepresented among Medicaid and marketplace enrollees in Georgia and may face disproportionate exposure to data-driven profiling, coverage determination systems, and consent architectures designed for high-trust, high-literacy users.
+
+**Methods.** A systematic document analysis was conducted across ten member-facing privacy policies from the five insurers. Analysis was structured across three dimensions: consent mechanics, data scope, and readability.
+
+Readability was assessed using Flesch-Kincaid Grade Level, Flesch Reading Ease, and SMOG index. Opt-out friction was operationalized as the number of discrete actions required for a member to exercise a stated privacy right, using a step-count framework adapted from Nouwens et al. (2020) and extended to include non-digital pathways.
+
+AI-assisted coding was conducted using a structured codebook grounded in EDPB Guidelines 03/2022 on deceptive design patterns and the FTC (2022) report *Bringing Dark Patterns to Light*. All coding was constrained to document-described procedures; no behavioral inference was applied.
+
+**Current findings.** All ten documents exceed the AMA-recommended 6th-grade readability threshold for patient-facing health materials, with scores ranging from grade 6.7 to 18.4.
+
+Across 17 coded opt-out pathways, five contained no documented opt-out mechanism. Six pathways exhibited consent asymmetry, where withdrawal of data use required more procedural steps than enrollment or authorization. Three pathways required multi-step written submissions in which insurers retain explicit discretion to deny requests.
+
+**Next phase.** The next phase involves community-partnered validation of document-based findings against lived member experience. This phase will require IRB approval and is currently in partner identification. Collaboration is being pursued with university partners with IRB infrastructure and established community relationships in the Atlanta region.
+
 This page is shared with potential collaborators only.
 Please do not share the URL publicly.
 
