@@ -13,7 +13,7 @@ Please do not share the URL publicly.
 Early stage working paper. Georgia primary case complete.
 Massachusetts and Florida comparison pending.
 
-## What we have so far
+## Current State
 
 - Document analysis of 10 privacy policies across 5 insurers
 - Readability scoring across all documents
