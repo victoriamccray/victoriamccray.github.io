@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Health Insurance Privacy Research
+title: Health Insurance Data Privacy Research
 subtitle: Working paper. Not for public distribution.
 published: true
 ---
