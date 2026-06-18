@@ -20,6 +20,13 @@ Massachusetts and Florida comparison pending.
 - Opt-out step count coding across 17 pathways
 - Three interactive visualizations
 
+<iframe
+  src="consent-flow.html"
+  width="100%"
+  height="500"
+  style="border: 1px solid #2a2a2a; border-radius: 6px;">
+</iframe>
+
 ## Findings summary
 
 ## Opt-Out Step Count Results: Georgia Primary Case
@@ -57,7 +64,7 @@ All pathways coded from document text only. Steps not described in documents wer
         width="100%" height="600" 
         frameborder="0">
 </iframe>
-
+<br>
 ## Analysis Source Code
 
 ### Readability Scoring
