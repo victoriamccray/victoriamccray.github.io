@@ -5,7 +5,7 @@ subtitle: Working paper. Not for public distribution.
 published: true
 ---
 
-This page is shared with collaborators and potential sponsors only.
+This page is shared with potential collaborators only.
 Please do not share the URL publicly.
 
 ## Status
@@ -32,13 +32,13 @@ Coded June 17, 2026 using claude-sonnet-4-6 with structured codebook.
 | Aetna | Web Privacy Policy | Email contact for privacy inquiries | 2 | Insurer may decline | No |
 | Anthem BCBS | HIPAA Notice | Opt-out of PHI sharing with health information exchanges | 2 | Prior disclosures cannot be undone | No |
 | Anthem BCBS | HIPAA Notice | Opt-out of unspecified PI sharing activities | 2 | Opt-out not available for this data type | No |
-| Anthem BCBS | HIPAA Notice | Cancel written authorization for PHI use | 1 | Prior disclosures cannot be undone | **Yes** |
+| Anthem BCBS | HIPAA Notice | Cancel written authorization for PHI use | 1 | Prior disclosures cannot be undone | Yes |
 | Anthem BCBS | HIPAA Notice (Spanish) | Opt-out of PHI disclosure to health info exchanges | 2 | Insurer may decline | No |
 | Anthem BCBS | HIPAA Notice (Spanish) | Opt-out of PI use for certain activities | 2 | Insurer may decline | No |
-| Anthem BCBS | HIPAA Notice (Spanish) | Revoke written authorization for PHI use | 1 | Prior disclosures cannot be undone | **Yes** |
-| Cigna | Data Sharing Notice | Provider Access Data Sharing Opt-Out | 2 | Default opt-in; prior disclosures cannot be undone | **Yes** |
-| Cigna | Data Sharing Notice | Third-Party App Data Authorization | **0** | No opt-out available; prior disclosures cannot be undone; insurer may decline | No |
-| Cigna | Global Health Benefits Notice | Marketing use of PHI | **0** | No opt-out available; default opt-in | **Yes** |
+| Anthem BCBS | HIPAA Notice (Spanish) | Revoke written authorization for PHI use | 1 | Prior disclosures cannot be undone | Yes |
+| Cigna | Data Sharing Notice | Provider Access Data Sharing Opt-Out | 2 | Default opt-in; prior disclosures cannot be undone | Yes |
+| Cigna | Data Sharing Notice | Third-Party App Data Authorization | 0 | No opt-out available; prior disclosures cannot be undone; insurer may decline | No |
+| Cigna | Global Health Benefits Notice | Marketing use of PHI | 0 | No opt-out available; default opt-in | Yes |
 | Cigna | HIPAA Notice | Opt-out of disclosure to individuals involved in care | 2 | Default opt-in | **Yes** |
 | Cigna | GLB Notice | No opt-out pathway described | **0** | No opt-out available : federal law cited | No |
 | Humana | HIPAA Notice | Opt-out of health-related benefit contacts | 1 | Default opt-in; mechanism not described | No |
@@ -47,9 +47,10 @@ Coded June 17, 2026 using claude-sonnet-4-6 with structured codebook.
 | UnitedHealthcare | HIPAA Notice | Request limit on use or sharing of health information | 3 | Insurer may decline | No |
 | UnitedHealthcare | HIPAA Notice | Request confidential communications change | 3 | None | No |
 
-**0 steps** = no opt-out mechanism exists, not frictionless access.  
+**0 steps** = no opt-out mechanism described.
 **Asymmetry** = opt-out requires more steps than opt-in, a documented dark pattern (Nouwens et al., 2020).  
 All pathways coded from document text only. Steps not described in documents were not inferred.
+
 ## Visualizations
 
 <iframe src="readability_chart_grouped.html" 
