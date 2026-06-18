@@ -6,7 +6,7 @@ subtitle: Contact Me and FAQ
 
 **Projects I'd Love to Collaborate On:**
 - Multi-modal data integration for understanding neurological or neuropsychiatric disorders
-- Open-source tools for accessible neuroimaging analysis
+- Open-source tools for accessible biomedical imaging analysis
 - Research examining how technology shapes cognitive processing
 - Community-engaged health data science
 
