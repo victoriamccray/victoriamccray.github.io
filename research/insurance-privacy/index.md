@@ -60,6 +60,13 @@ All pathways coded from document text only. Steps not described in documents wer
 
 ## Analysis Source Code
 
+### Readability Scoring
+<iframe src="insurance_privacy_readability_scoring.html" 
+        width="100%" height="600" 
+        frameborder="0">
+</iframe>
+
+### Opt-Out Step Coding
 <iframe src="opt_out_step_coding.html" 
         width="100%" height="600" 
         frameborder="0">
