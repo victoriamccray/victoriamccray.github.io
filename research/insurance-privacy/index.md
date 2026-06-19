@@ -19,7 +19,7 @@ Readability was assessed using Flesch-Kincaid Grade Level, Flesch Reading Ease, 
 
 AI-assisted coding was conducted using a structured codebook grounded in EDPB Guidelines 03/2022 on deceptive design patterns and the FTC (2022) report *Bringing Dark Patterns to Light*. All coding was constrained to document-described procedures; no behavioral inference was applied.
 
-The data collection & sharing table below summarizes the data categories collected by each insurer and the entities with which that data may be shared, based on member-facing privacy documents reviewed in June 2026.
+The data collection and sharing table below summarizes the data categories collected by each insurer and the entities with which that data may be shared, based on member-facing privacy documents reviewed in June 2026.
 
 **Current findings.** In addition to HIPAA-covered health information, insurers collect a broad range of non-clinical data, including commercially available and third-party sourced information, device and behavioral data, and—in some cases—demographic characteristics such as race, ethnicity, sexual orientation, and religious affiliation. Among the insurers reviewed, Humana is the only insurer that explicitly identifies the Medical Information Bureau (MIB), an industry-wide data-sharing consortium, as a source of member information.
 
