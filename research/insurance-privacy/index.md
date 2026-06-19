@@ -11,7 +11,7 @@ This working paper analyzes data collection, consent mechanics, and opt-out desi
 
 The study focuses on how privacy rights are operationalized in practice through document-defined procedures, with attention to populations that may experience elevated exposure to insurer data systems due to structural vulnerability in health and social service contexts.
 
-**Population of focus.** Adults with chronic conditions, including those with intersecting histories of system involvement such as incarceration, housing instability, and substance use disorder. These groups are overrepresented among Medicaid and marketplace enrollees in Georgia and may face disproportionate exposure to data-driven profiling, coverage determination systems, and consent architectures designed for high-trust, high-literacy users.
+**Population of focus.** Adults with chronic conditions, including those with intersecting histories of system involvement such as incarceration, housing instability, and substance use disorder. These groups are overrepresented among public and private marketplace enrollees in Georgia and may face disproportionate exposure to data-driven profiling, coverage determination systems, and consent architectures designed for high-trust, high-literacy users.
 
 **Methods.** A systematic document analysis was conducted across ten member-facing privacy policies from the five insurers. Analysis was structured across three dimensions: consent mechanics, data scope, and readability.
 
