@@ -19,7 +19,15 @@ Readability was assessed using Flesch-Kincaid Grade Level, Flesch Reading Ease, 
 
 AI-assisted coding was conducted using a structured codebook grounded in EDPB Guidelines 03/2022 on deceptive design patterns and the FTC (2022) report *Bringing Dark Patterns to Light*. All coding was constrained to document-described procedures; no behavioral inference was applied.
 
-**Current findings.** All ten documents exceed the AMA-recommended 6th-grade readability threshold for patient-facing health materials, with scores ranging from grade 6.7 to 18.4.
+**Current findings.** The data collection & sharing table below summarizes the data categories collected by each insurer and the entities with which that data may be shared, based on member-facing privacy documents reviewed in June 2026.
+
+In addition to HIPAA-covered health information, insurers collect a broad range of non-clinical data, including commercially available and third-party sourced information, device and behavioral data, and—in some cases—demographic characteristics such as race, ethnicity, sexual orientation, and religious affiliation. Among the insurers reviewed, Humana is the only insurer that explicitly identifies the Medical Information Bureau (MIB), an industry-wide data-sharing consortium, as a source of member information.
+
+The disclosures described in these documents extend well beyond healthcare operations. All five insurers permit disclosure of member data to law enforcement without requiring member consent, and three explicitly identify correctional institutions as potential recipients. All five also share data with life sciences and research organizations. Commercial recipients include advertising and analytics providers, credit bureaus, and corporate affiliates such as CVS Health (Aetna) and Evernorth (Cigna). Two insurers additionally reserve the right to transfer member data to acquiring entities as part of mergers, acquisitions, or other corporate transactions without obtaining member consent.
+
+A cell marked "—" indicates that the practice is not described in the available documents; it should not be interpreted as evidence that the practice does not occur.
+
+All ten documents exceed the AMA-recommended 6th-grade readability threshold for patient-facing health materials, with scores ranging from grade 6.7 to 18.4.
 
 Across 17 coded opt-out pathways, five contained no documented opt-out mechanism. Six pathways exhibited consent asymmetry, where withdrawal of data use required more procedural steps than enrollment or authorization. Three pathways required multi-step written submissions in which insurers retain explicit discretion to deny requests.
 
