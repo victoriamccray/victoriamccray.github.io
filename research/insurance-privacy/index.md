@@ -1,5 +1,4 @@
 ---
----
 layout: page
 title: Health Insurance Privacy Research
 subtitle: Exploring how insurer privacy policies shape patient agency through readability, transparency, and consent mechanics.
