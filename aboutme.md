@@ -30,13 +30,76 @@ Beyond my technical work, I'm committed to democratizing access to STEM and comp
 - <b>Research Methodology & Equity</b>: Open science in resource-limited settings, community-engaged research, reproducibility
 
 
-View or download my CV below.
+## Professional Documents
 
-<iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/victoriamccray/victoriamccray.github.io/master/assets/img/Victoria_McCray_CV_2026.pdf&embedded=true" 
+<p>Choose the version that best fits your needs.</p>
+
+<div style="margin-bottom:15px;">
+  <button onclick="showDoc('resume')" id="resumeBtn">Resume</button>
+  <button onclick="showDoc('cv')" id="cvBtn">CV</button>
+</div>
+
+<iframe
+  id="docViewer"
+  src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/victoriamccray/victoriamccray.github.io/master/assets/img/Victoria_McCray_Resume_2026.pdf&embedded=true"
+  width="100%"
+  height="700px"
+  frameborder="0">
+</iframe>
+
+<p>
+  <a id="downloadLink"
+     href="/assets/img/Victoria_McCray_Resume_2026.pdf"
+     download>
+     Download Resume
+  </a>
+</p>
+
+<script>
+const docs = {
+  resume: {
+    view: "https://docs.google.com/gview?url=https://raw.githubusercontent.com/victoriamccray/victoriamccray.github.io/master/assets/img/Victoria_McCray_Resume_2026.pdf&embedded=true",
+    download: "/assets/img/Victoria_McCray_Resume_2026.pdf",
+    text: "Download Resume"
+  },
+  cv: {
+    view: "https://docs.google.com/gview?url=https://raw.githubusercontent.com/victoriamccray/victoriamccray.github.io/master/assets/img/Victoria_McCray_CV_2026.pdf&embedded=true",
+    download: "/assets/img/Victoria_McCray_CV_2026.pdf",
+    text: "Download CV"
+  }
+};
+
+function showDoc(type){
+  document.getElementById("docViewer").src = docs[type].view;
+  document.getElementById("downloadLink").href = docs[type].download;
+  document.getElementById("downloadLink").textContent = docs[type].text;
+}
+</script>
+
+<style>
+button{
+  padding:10px 20px;
+  margin-right:10px;
+  border:none;
+  border-radius:6px;
+  background:#2f4f4f;
+  color:white;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#486868;
+}
+</style>
+---
+
+### Curriculum Vitae (CV)
+My complete academic record, including publications, presentations, leadership, teaching, and service.
+
+<iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/victoriamccray/victoriamccray.github.io/master/assets/img/Victoria_McCray_CV_2026.pdf&embedded=true"
   width="100%" height="600px" frameborder="0"></iframe>
 
-<a href="/assets/img/Victoria_McCray_CV_2026.pdf" download>Download CV</a>
-
+[⬇️ Download CV](/assets/img/Victoria_McCray_CV_2026.pdf)
 <style>
     .constellation-container {
     width: 100%;
