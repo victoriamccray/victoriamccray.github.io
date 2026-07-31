@@ -93,13 +93,6 @@ button:hover{
 </style>
 ---
 
-### Curriculum Vitae (CV)
-My complete academic record, including publications, presentations, leadership, teaching, and service.
-
-<iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/victoriamccray/victoriamccray.github.io/master/assets/img/Victoria_McCray_CV_2026.pdf&embedded=true"
-  width="100%" height="600px" frameborder="0"></iframe>
-
-[⬇️ Download CV](/assets/img/Victoria_McCray_CV_2026.pdf)
 <style>
     .constellation-container {
     width: 100%;
