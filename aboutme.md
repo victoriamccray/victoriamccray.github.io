@@ -49,7 +49,7 @@ Beyond my technical work, I'm committed to democratizing access to STEM and comp
 
 <p>
   <a id="downloadLink"
-     href="/assets/img/Victoria_McCray_Resume_2026.pdf"
+     href="/assets/img/Victoria_McCray_Resume_2026.docx.pdf"
      download>
      Download Resume
   </a>
@@ -59,7 +59,7 @@ Beyond my technical work, I'm committed to democratizing access to STEM and comp
 const docs = {
   resume: {
     view: "https://docs.google.com/gview?url=https://raw.githubusercontent.com/victoriamccray/victoriamccray.github.io/master/assets/img/Victoria_McCray_Resume_2026.pdf&embedded=true",
-    download: "/assets/img/Victoria_McCray_Resume_2026.pdf",
+    download: "/assets/img/Victoria_McCray_Resume_2026.docx.pdf",
     text: "Download Resume"
   },
   cv: {
