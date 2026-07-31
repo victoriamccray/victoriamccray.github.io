@@ -133,13 +133,7 @@ or additional insurer coverage, please consider sponsoring.
 
 <iframe src="https://github.com/sponsors/victoriamccray/card" title="Sponsor victoriamccray" height="225" width="600" style="border: 0;"></iframe>
 
-## Access & Sharing
+## Citation
 
-This is a controlled working draft intended for:
-- research collaborators
-- potential funders and sponsors
-- invited reviewers
-
-This page is intentionally not indexed and not linked from the main site navigation.
-
-If you were forwarded this link, please do not redistribute without permission.
+McCray, V. (2026). *Barriers to Patient Agency in Health Insurer Privacy Policies: A Document Analysis of Readability, Data Sharing, and Consent Mechanics.*
+SocArXiv. DOI: https://doi.org/10.31235/osf.io/7hd4m_v1
