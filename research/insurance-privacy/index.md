@@ -1,53 +1,26 @@
 ---
+---
 layout: page
-title: Health Insurance Data Privacy Research
-subtitle: Working paper. Not for public distribution.
+title: Health Insurance Privacy Research
+subtitle: Exploring how insurer privacy policies shape patient agency through readability, transparency, and consent mechanics.
 published: true
 ---
 
 ## Overview
 
-This working paper analyzes data collection, consent mechanics, and opt-out design in member-facing privacy policies from five major private insurers operating in Georgia: Anthem Blue Cross Blue Shield, UnitedHealthcare, Aetna, Cigna, and Humana.
+Health insurance privacy policies are one of the primary ways members learn how their personal information is collected, shared, and governed. Yet these documents are often lengthy, fragmented across multiple notices, and difficult to interpret.
 
-The study focuses on how privacy rights are operationalized in practice through document-defined procedures, with attention to populations that may experience elevated exposure to insurer data systems due to structural vulnerability in health and social service contexts.
+This project examines how member-facing privacy policies operationalize privacy rights in practice through three dimensions:
 
-**Population of focus.** Adults with chronic conditions, including those with intersecting histories of system involvement such as incarceration, housing instability, and substance use disorder. These groups are overrepresented among public and marketplace enrollees in Georgia and may face disproportionate exposure to data-driven profiling, coverage determination systems, and consent architectures designed for high-trust, high-literacy users.
+- **Scope** — What information is collected and where it may be shared.
+- **Comprehensibility** — Whether members can reasonably understand those practices.
+- **Actionability** — Whether members can realistically exercise the privacy rights described.
 
-**Methods.** A systematic document analysis was conducted across ten member-facing privacy policies from the five insurers. Analysis was structured across three dimensions: consent mechanics, data scope, and readability.
+The Georgia primary case analyzes ten publicly available privacy documents from Anthem Blue Cross Blue Shield, UnitedHealthcare, Aetna, Cigna, and Humana.
 
-Readability was assessed using Flesch-Kincaid Grade Level, Flesch Reading Ease, and SMOG index. Opt-out friction was operationalized as the number of discrete actions required for a member to exercise a stated privacy right, using a step-count framework adapted from Nouwens et al. (2020) and extended to include non-digital pathways.
+## Interactive Dashboard
 
-AI-assisted coding was conducted using a structured codebook grounded in EDPB Guidelines 03/2022 on deceptive design patterns and the FTC (2022) report *Bringing Dark Patterns to Light*. All coding was constrained to document-described procedures; no behavioral inference was applied.
-
-The data collection and sharing table below summarizes the data categories collected by each insurer and the entities with which that data may be shared, based on member-facing privacy documents reviewed in June 2026. A cell marked "—" indicates that the practice is not described in the available documents; it should not be interpreted as evidence that the practice does not occur.
-
-
-**Current findings.** In addition to HIPAA-covered health information, insurers collect a broad range of non-clinical data, including commercially available and third-party sourced information, device and behavioral data, and in some cases, demographic characteristics such as race, ethnicity, sexual orientation, and religious affiliation. Among the insurers reviewed, Humana is the only insurer that explicitly identifies the Medical Information Bureau (MIB), an industry-wide data-sharing consortium, as a source of member information.
-
-The disclosures described in these documents extend well beyond healthcare operations. All five insurers permit disclosure of member data to law enforcement without requiring member consent, and three explicitly identify correctional institutions as potential recipients. All five also share data with life sciences and research organizations. Commercial recipients include advertising and analytics providers, credit bureaus, and corporate affiliates such as CVS Health (Aetna) and Evernorth (Cigna). Two insurers additionally reserve the right to transfer member data to acquiring entities as part of mergers, acquisitions, or other corporate transactions without obtaining member consent.
-
-
-All ten documents exceed the AMA-recommended 6th-grade readability threshold for patient-facing health materials, with scores ranging from grade 6.7 to 18.4.
-
-Across 17 coded opt-out pathways, five contained no documented opt-out mechanism. Six pathways exhibited consent asymmetry, where withdrawal of data use required more procedural steps than enrollment or authorization. Three pathways required multi-step written submissions in which insurers retain explicit discretion to deny requests.
-
-**Next phase.** The next phase involves community-partnered validation of document-based findings against lived member experience. This phase will require IRB approval and is currently in partner identification. Collaboration is being pursued with university partners with IRB infrastructure and established community relationships in the Atlanta region.
-
-This page is shared with potential collaborators only.
-Please do not share the URL publicly.
-
-## Status
-
-Early stage working paper. Georgia primary case complete.
-Massachusetts and Florida comparison pending.
-
-## Current State
-
-- Document analysis of 10 privacy policies across 5 insurers
-- Readability scoring across all documents
-- Opt-out step count coding across 17 pathways
-- Three interactive visualizations
-
+Explore the primary findings through interactive visualizations.
 ### Scoring Flowchart
 <iframe
   src="consent-flow.html"
@@ -116,6 +89,42 @@ All pathways coded from document text only. Steps not described in documents wer
         frameborder="0">
 </iframe>
 
+**Population of focus.** Adults with chronic conditions, including those with intersecting histories of system involvement such as incarceration, housing instability, and substance use disorder. These groups are overrepresented among public and marketplace enrollees in Georgia and may face disproportionate exposure to data-driven profiling, coverage determination systems, and consent architectures designed for high-trust, high-literacy users.
+
+**Methods.** A systematic document analysis was conducted across ten member-facing privacy policies from the five insurers. Analysis was structured across three dimensions: consent mechanics, data scope, and readability.
+
+Readability was assessed using Flesch-Kincaid Grade Level, Flesch Reading Ease, and SMOG index. Opt-out friction was operationalized as the number of discrete actions required for a member to exercise a stated privacy right, using a step-count framework adapted from Nouwens et al. (2020) and extended to include non-digital pathways.
+
+AI-assisted coding was conducted using a structured codebook grounded in EDPB Guidelines 03/2022 on deceptive design patterns and the FTC (2022) report *Bringing Dark Patterns to Light*. All coding was constrained to document-described procedures; no behavioral inference was applied.
+
+The data collection and sharing table below summarizes the data categories collected by each insurer and the entities with which that data may be shared, based on member-facing privacy documents reviewed in June 2026. A cell marked "—" indicates that the practice is not described in the available documents; it should not be interpreted as evidence that the practice does not occur.
+
+
+**Current findings.** In addition to HIPAA-covered health information, insurers collect a broad range of non-clinical data, including commercially available and third-party sourced information, device and behavioral data, and in some cases, demographic characteristics such as race, ethnicity, sexual orientation, and religious affiliation. Among the insurers reviewed, Humana is the only insurer that explicitly identifies the Medical Information Bureau (MIB), an industry-wide data-sharing consortium, as a source of member information.
+
+The disclosures described in these documents extend well beyond healthcare operations. All five insurers permit disclosure of member data to law enforcement without requiring member consent, and three explicitly identify correctional institutions as potential recipients. All five also share data with life sciences and research organizations. Commercial recipients include advertising and analytics providers, credit bureaus, and corporate affiliates such as CVS Health (Aetna) and Evernorth (Cigna). Two insurers additionally reserve the right to transfer member data to acquiring entities as part of mergers, acquisitions, or other corporate transactions without obtaining member consent.
+
+All ten documents exceed the AMA-recommended 6th-grade readability threshold for patient-facing health materials, with scores ranging from grade 6.7 to 18.4.
+
+Across 17 coded opt-out pathways, five contained no documented opt-out mechanism. Six pathways exhibited consent asymmetry, where withdrawal of data use required more procedural steps than enrollment or authorization. Three pathways required multi-step written submissions in which insurers retain explicit discretion to deny requests.
+
+**Next phase.** The next phase involves community-partnered validation of document-based findings against lived member experience. This phase will require IRB approval and is currently in partner identification. Collaboration is being pursued with university partners with IRB infrastructure and established community relationships in the Atlanta region.
+
+This page is shared with potential collaborators only.
+Please do not share the URL publicly.
+
+## Status
+
+- Preprint published for Georgia primary case complete.
+- Seeking feedback on methodology and study design as well as community participatory research partners.
+- Massachusetts and Florida comparison pending.
+
+## Current State
+
+- Document analysis of 10 privacy policies across 5 insurers
+- Readability scoring across all documents
+- Opt-out step count coding across 17 pathways
+- Interactive visualizations
 
 ## Support this research
 
