@@ -58,7 +58,7 @@ Beyond my technical work, I'm committed to democratizing access to STEM and comp
 <script>
 const docs = {
   resume: {
-    view: "https://docs.google.com/gview?url=https://raw.githubusercontent.com/victoriamccray/victoriamccray.github.io/master/assets/img/Victoria_McCray_Resume_2026.pdf&embedded=true",
+    view: "https://docs.google.com/gview?url=https://raw.githubusercontent.com/victoriamccray/victoriamccray.github.io/master/assets/img/Victoria_McCray_Resume_2026.docx.pdf&embedded=true",
     download: "/assets/img/Victoria_McCray_Resume_2026.docx.pdf",
     text: "Download Resume"
   },
