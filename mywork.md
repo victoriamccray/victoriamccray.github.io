@@ -22,9 +22,9 @@ I build data, AI/ML, and operational systems that help organizations make eviden
 
 ## Research Highlights
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT_FQzwBXKKbciiin6UvSn_e19eOApYKrAytJZkgWADs3pfQcuqpk-0nCGgIVLgtJCPBE0RjlzVR62b/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT_FQzwBXKKbciiin6UvSn_e19eOApYKrAytJZkgWADs3pfQcuqpk-0nCGgIVLgtJCPBE0RjlzVR62b/pubembed?start=false&loop=true&delayms=10000" frameborder="0" width="100%" height="450" allowfullscreen="true"></iframe>
 
-Below are the organizations from my previous experience for more details.
+Below are several selected projects from my previous experience for more details.
 
 <h2 align="center">Guidehouse Health</h2>
 
