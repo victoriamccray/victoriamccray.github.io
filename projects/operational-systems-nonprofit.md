@@ -10,7 +10,7 @@ description: Case study on designing financial, governance, and fundraising syst
 **Duration:** 2023 – 2026
 **Organization:** Global volunteer-led nonprofit
 
-[Download the full case study (PDF)](/assets/downloads/operational-systems-nonprofit.pdf)
+[Download the full case study (PDF)](/assets/img/operational-systems-nonprofit.pdf)
 
 ---
 
@@ -108,4 +108,3 @@ The documentation was designed around four principles:
 
 ---
 
-[Download the full case study (PDF)](/assets/downloads/operational-systems-nonprofit.pdf)
