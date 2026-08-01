@@ -25,6 +25,7 @@ navbar-links:
   My Work: "mywork"
   Curricula:
     - Hackathon: "curricula/hackathon"
+    - Prompt Engineering: "curricula/prompt-engineering
   Writing:
     - Research: "writing/research"
     - Creative: "writing/creative"
