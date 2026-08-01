@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Experience
+title: Selected Projects
 subtitle: Below are my previous roles and several projects from my work.
 ---
 
