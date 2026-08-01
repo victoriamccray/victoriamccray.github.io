@@ -76,12 +76,17 @@ Funding and Partners: Society for Neuroscience
 The Ernest E. Just Society is dedicated to acknowledging the work of African Americans in the life science fields. With several other grassroots organizations dedicated to impacting black individuals in STEM fields (collectively known as BlackInX), Black In Neuro was honored at the Smithsonian National Museum of African American History and Culture in Washington D.C. on Sep. 16, 2023.
 
 *I joined the planning committee meeting for the inaugural EE Just Conference along with other Leadership representatives from Black In Neuro and Black In X*
-![E.E. Just Steering Committee](assets/img/eejust-steering.jpeg)
-![E.E. Just Steering Committee](assets/img/bin-team-smithsonian.jpeg)
+
+<p align="center">
+  <img src="/assets/img/eejust-steering.jpeg" width="45%">
+  <img src="/assets/img/bin-team-smithsonian.jpeg" width="45%">
+</p>
 
 *Black In Neuro was honored at the Smithsonian in Washington, D.C., USA*
-![E.E. Just Steering Committee](assets/img/eejust-group.jpeg)
-![E.E. Just Steering Committee](assets/img/eejust-ceremony.jpeg)
+<p align="center">
+  <img src="/assets/img/eejust-group.jpeg" width="45%">
+  <img src="/assets/img/eejust-ceremony.jpeg" width="45%">
+</p>
 
 
 Funding and Partners: United Negro College Fund, Ernest E. Just Society
