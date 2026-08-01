@@ -9,9 +9,6 @@ description: Case study on designing financial, governance, and fundraising syst
 **Role:** Director of Finance
 **Duration:** 2023 – 2026
 **Organization:** Global volunteer-led nonprofit
-
-[Download the full case study (PDF)](/assets/img/operational-systems-nonprofit.pdf)
-
 ---
 
 ## Overview
@@ -107,4 +104,12 @@ The documentation was designed around four principles:
 - Established operational guidance supporting nonprofit compliance and long-term sustainability
 
 ---
+## Case Study
 
+<iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/victoriamccray/victoriamccray.github.io/master/assets/img/operational-systems-nonprofit.pdf&embedded=true"
+width="100%" height="700px" frameborder="0"></iframe>
+
+
+[Download the full case study (PDF)](/assets/img/operational-systems-nonprofit.pdf)
+
+</a>
