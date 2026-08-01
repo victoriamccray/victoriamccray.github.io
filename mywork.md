@@ -14,7 +14,7 @@ I build data, AI/ML, and operational systems that help organizations make eviden
 
 - **Building Financial Operations for a Growing Nonprofit**
   Operational systems, governance, budgeting, and financial documentation.
-  *(Coming soon)*
+  [View Project](/projects/operational-systems-nonprofit/)
 
 - **Open Science Neuro Hackathon**
   Curriculum development, open science, and international capacity building.
