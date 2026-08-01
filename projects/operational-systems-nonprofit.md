@@ -5,10 +5,12 @@ subtitle: Building Operational Systems for a Global Nonprofit
 description: Case study on designing financial, governance, and fundraising systems as Director of Finance for a global volunteer-led nonprofit.
 ---
 
-**Project:** Building Operational Systems for a Global Nonprofit
 **Role:** Director of Finance
+
 **Duration:** 2023 – 2026
+
 **Organization:** Global volunteer-led nonprofit
+
 ---
 
 ## Overview
