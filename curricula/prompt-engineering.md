@@ -18,7 +18,7 @@ This project includes the development of:
 - Human-in-the-loop review processes
 - Technical documentation and training materials
 
-The workflow begins with structured user inputs, automatically retrieves relevant opportunities through Python scripts and external APIs, applies prompt templates using large language models, and concludes with human review and evaluation before results are finalized. :contentReference[oaicite:1]{index=1}
+The workflow begins with structured user inputs, automatically retrieves relevant opportunities through Python scripts and external APIs, applies prompt templates using large language models, and concludes with human review and evaluation before results are finalized.
 
 ## Prompt Engineering Workflow
 
@@ -29,7 +29,7 @@ Key components of the workflow include:
 - Designing and refining prompt templates
 - Evaluating prompt performance against baseline results
 
-This process supports consistent AI outputs while allowing prompt templates to be iteratively improved through evaluation and documentation. :contentReference[oaicite:2]{index=2}
+This process supports consistent AI outputs while allowing prompt templates to be iteratively improved through evaluation and documentation.
 
 ## Outcomes
 
@@ -38,7 +38,7 @@ This work resulted in:
 - Standardized prompt engineering guidance
 - Structured evaluation criteria for AI outputs
 - Training materials for new users
-- A repeatable workflow supporting consistent human review :contentReference[oaicite:3]{index=3}
+- A repeatable workflow supporting consistent human review
 
 ## Work Sample
 
