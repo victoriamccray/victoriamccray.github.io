@@ -113,5 +113,3 @@ width="100%" height="700px" frameborder="0"></iframe>
 
 
 [Download the full case study (PDF)](/assets/img/operational-systems-nonprofit.pdf)
-
-</a>
