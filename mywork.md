@@ -109,7 +109,9 @@ The open-source software for connectivity analyses, CONN, was developed by thesi
 
 
 *My work was awarded with the Avrom Aaron Leve Memorial Award; pictured is myself, Victoria (left) and Dr. Juliet Davidow (right)*
-![Award Ceremony for the Dept of Psychology](assets/img/avrom-aaron-julietvic.jpeg)
+<p align="center">
+  <img src="/assets/img/avrom-aaron-julietvic.jpeg" width="70%">
+</p>
 
 Funding and Partners: Paul and Grace Ward Martinez, NITRC
 
