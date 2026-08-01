@@ -63,10 +63,14 @@ Black In Neuro collaborated with Society for Neuroscience (SfN) to provide a pro
 How I Survived Grad School: Perspectives from Black In Neuro
 
 *The workshop was developed and facilitated by the Black In Neuro team*
-![SfN Professional Development Attendees](assets/img/sfn-team-profdev.jpg)
+<p align="center">
+  <img src="/assets/img/sfn-team-profdev.jpg" width="70%">
+</p>
 
 *The workshop was attended in-person by 200+ individuals at SfN*
-![SfN Professional Development Attendees](assets/img/sfn-prof-dev-attendees.jpg)
+<p align="center">
+  <img src="/assets/img/sfn-prof-dev-attendees.jpg" width="70%">
+</p>
 
 
 Funding and Partners: Society for Neuroscience
