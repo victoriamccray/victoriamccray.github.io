@@ -4,9 +4,23 @@ title: Selected Projects
 subtitle: Below are my previous roles and several projects from my work.
 ---
 
-I build data, AI/ML, and operational systems that help organizations make evidence-based decisions. My experience spans public health, biomedical research, nonprofit leadership, and technology, with a focus on translating complex problems into practical, scalable solutions.
+I build data, AI/ML, and operational systems that help organizations make evidence-based decisions. My experience spans public health, biomedical research, nonprofit leadership, and technology, with a focus on translating complex problems into practical, scalable solutions. Below are selected projects and experiences that reflect how I approach research, systems design, and social impact.
 
-## Research Portfolio
+## Featured Projects
+
+- **Prompt Engineering**
+  AI-assisted workflow design, evaluation, and technical documentation.
+  [View Project](/curricula/prompt-engineering/)
+
+- **Building Financial Operations for a Growing Nonprofit**
+  Operational systems, governance, budgeting, and financial documentation.
+  *(Coming soon)*
+
+- **Open Science Neuro Hackathon**
+  Curriculum development, open science, and international capacity building.
+  [View Project](/curricula/open-science-neuro-hackathon/)
+
+## Research Highlights
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT_FQzwBXKKbciiin6UvSn_e19eOApYKrAytJZkgWADs3pfQcuqpk-0nCGgIVLgtJCPBE0RjlzVR62b/pubembed?start=false&loop=true&delayms=10000" frameborder="0" width="100%" height="450" allowfullscreen="true"></iframe>
 
