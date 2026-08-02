@@ -2,10 +2,6 @@
 
 An open-source validation toolkit for research data, measures, models, and programs.
 
-## Live Application
-
-https://openmeasure.streamlit.app
-
 OpenMeasure brings together statistical methods, transparent reporting, and plain-language interpretation to help researchers evaluate measurements, datasets, analytical models, and program evaluations.
 
 OpenMeasure is designed for researchers and practitioners working in community health, social services, education, public policy, and applied research. The toolkit emphasizes validation methods that are accessible, reproducible, transparent, and adaptable across disciplines.
@@ -100,7 +96,11 @@ See `modules/reliability/README.md` for methodology and references.
 
 Future releases will expand OpenMeasure with data validation, model validation, and program evaluation modules.
 
-## Screenshots
+## Live Application
+
+https://openmeasure.streamlit.app
+
+### Screenshots
 
 The Reliability module provides an interactive workflow for data upload,
 reliability analysis, interpretation, and transparent reporting.
