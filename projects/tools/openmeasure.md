@@ -1,6 +1,9 @@
-# OpenMeasure
-
-An open-source validation toolkit for research data, measures, models, and programs.
+---
+layout: page
+title: OpenMeasure
+subtitle: Validation toolkit for applied research.
+description: An open-source validation toolkit for research data, measures, models, and programs.
+---
 
 OpenMeasure brings together statistical methods, transparent reporting, and plain-language interpretation to help researchers evaluate measurements, datasets, analytical models, and program evaluations.
 
