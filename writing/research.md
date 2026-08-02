@@ -7,7 +7,7 @@ title: Research
 <h3>Barriers to Patient Agency in Health Insurer Privacy Policies: A Document Analysis of Readability, Data Sharing, and Consent Mechanics
 </h3>
 <p>McCray, V.P. <em>SocArXiv</em>, Preprint July, 2026.</p>
-<p>https://doi.org/10.31235/osf.io/7hd4m_v1</p>
+<p><a href="https://doi.org/10.31235/osf.io/7hd4m_v1">https://doi.org/10.31235/osf.io/7hd4m_v1</a></p>
 <p>This study examines how privacy rights are operationalized through member-facing privacy policies from five major private health insurers operating in Georgia through an exploratory document analysis.</p>
 <iframe src="https://victoriamccray.github.io/assets/img/Health_Insurance_Data_Privacy_Preprint.pdf" width="100%" height="600px"></iframe>
 </div>
