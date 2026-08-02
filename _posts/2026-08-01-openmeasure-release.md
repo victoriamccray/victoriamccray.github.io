@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OpenMeasure v0.1.0 Released
+title: OpenMeasure Released
 subtitle: An open-source validation toolkit for research data, measures, models, and programs.
 gh-repo: victoriamccray/openmeasure
 tags: [open-source, python, streamlit, applied research, methods, validation, statistics]
