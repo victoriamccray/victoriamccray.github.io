@@ -21,15 +21,21 @@ Evaluates the consistency and quality of research instruments and supports futur
 
 Evaluates data quality, completeness, consistency, and integrity before analysis.
 
+**Status:** Under Development
+
 ### Model Validation
 
 Evaluates predictive performance, robustness, calibration, subgroup behavior, and fairness using transparent, documented metrics.
 
 OpenMeasure does not prescribe a single definition of fairness. Future modules will present multiple established metrics alongside their assumptions, tradeoffs, and ethical considerations.
 
+**Available:** Fairness v0.05
+
 ### Program Validation
 
 Supports evaluation of interventions using research designs and statistical methods appropriate to the program, population, and evaluation goals.
+
+**Available:** Program Evaluation v0.1
 
 ## Design principles
 
