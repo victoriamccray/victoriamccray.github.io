@@ -24,7 +24,7 @@ navbar-links:
   About Me: "aboutme"
   My Work: "mywork"
   Tools: 
-  - Open Measure: "openmeasure"
+  - Open Measure: "projects/tools/openmeasure"
   Curricula:
     - Hackathon: "curricula/hackathon"
     - Prompt Engineering: "curricula/prompt-engineering"
