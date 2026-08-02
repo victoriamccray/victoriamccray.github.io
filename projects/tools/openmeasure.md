@@ -1,4 +1,3 @@
-# OpenMeasure
 
 An open-source validation toolkit for research data, measures, models, and programs.
 
