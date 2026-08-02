@@ -8,6 +8,10 @@ I build data, AI/ML, and operational systems that help organizations make eviden
 
 ## Featured Projects
 
+- **OpenMeasure**
+  Validation toolkit for applied research.
+  [View Project](/projects/tools/openmeasure/)
+
 - **Prompt Engineering**
   AI-assisted workflow design, evaluation, and technical documentation.
   [View Project](/curricula/prompt-engineering/)
