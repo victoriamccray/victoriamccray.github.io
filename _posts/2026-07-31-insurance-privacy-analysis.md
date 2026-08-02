@@ -16,10 +16,12 @@ Some key findings include:
 - Broader data collection and sharing practices often appeared in the most difficult documents to read.
 - Many documented privacy rights required multiple procedural steps or had no documented opt-out mechanism.
 
-📄 **Preprint:** https://doi.org/10.31235/osf.io/7hd4m_v1
+📄 **Preprint:**
+McCray, V.P. *SocArXiv*, Preprint July, 2026.
+[https://doi.org/10.31235/osf.io/7hd4m_v1](https://doi.org/10.31235/osf.io/7hd4m_v1)
 
-📊 **Interactive visualizations and project page:**  
-https://victoriamccray.github.io/research/insurance-privacy/
+📊 **Interactive visualizations and project page:**
+[https://victoriamccray.github.io/research/insurance-privacy/](https://victoriamccray.github.io/research/insurance-privacy/)
 
 I'm now expanding this work to compare policies across additional states and, ultimately, validate these findings through community participatory research with people living with chronic illnesses.
 
