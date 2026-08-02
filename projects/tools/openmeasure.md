@@ -106,15 +106,15 @@ reliability analysis, interpretation, and transparent reporting.
 
 ### Home
 
-![Home](docs/images/home.png)
+![Home](../../assets/img/openmeasure_home.png)
 
 ### Reliability Analysis
 
-![Reliability](docs/images/reliability-results.png)
+![Reliability](../../assets/img/openmeasure_reliability.png)
 
 ### Assumptions & Limitations
 
-![Assumptions](docs/images/assumptions.png)
+![Assumptions](../../assets/img/openmeasure_assumptions.png)
 
 ## Running tests
 
