@@ -28,7 +28,7 @@ Yes! I would be most excited for Sr. Data Scientist, Research Engineer, or Bioin
 
 ### What were the results of your thesis?
 
-Cannabis was shown to increase functional connectivity for persons living with comorbid cannabis use disorder and schizophrenia, and performance on the reward task increased for patients after cannabis use. However, comorbid patients did not reach levels comparable to healthy controls (connectivity, reward task). While the results of the functional connectivity analysis were consistent with previous research, this project was the first to explore the relationship with behavioral data.
+Cannabis was shown to increase functional connectivity for persons living with comorbid cannabis use disorder and schizophrenia, and performance on the reward task increased for patients after cannabis use. However, comorbid patients did not reach levels comparable to healthy controls (connectivity, reward task). While the results of the functional connectivity analysis were consistent with previous research, this project was the first to explore the relationship with behavioral data. However, several steps in the functional connectivity analysis did not replicate from previous research. This was my introduction to the importance of reproducible science.
 
 ### What are you reading right now?
 When the Body Says No
