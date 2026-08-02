@@ -1,9 +1,4 @@
 
----
-layout: page
-title: OpenMeasure
-show-avatar: false
----
 An open-source validation toolkit for research data, measures, models, and programs.
 
 ## Live Application
@@ -38,7 +33,7 @@ Supports evaluation of interventions using research designs and statistical meth
 
 ## Design principles
 
-Every module follows the same principles:
+Each module follows these principles:
 
 - Transparent statistical methods
 - Reproducible analyses
@@ -134,7 +129,11 @@ OpenMeasure is an early-stage project. Researchers, clinicians, technologists, a
 
 Please open an issue before submitting a pull request so proposed changes can be discussed and aligned with the project's scope and design principles.
 
+## GitHub Repository
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-64748B?style=flat&logo=github&logoColor=white)](https://github.com/victoriamccray/openmeasure)
+
 ## License
+[![License](https://img.shields.io/github/license/victoriamccray/openmeasure?style=flat&color=64748B)](https://github.com/victoriamccray/openmeasure/blob/main/LICENSE)
 
 See `LICENSE.md`.
 
