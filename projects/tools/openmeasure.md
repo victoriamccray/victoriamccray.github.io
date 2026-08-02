@@ -1,4 +1,9 @@
 
+---
+layout: page
+title: OpenMeasure
+show-avatar: false
+---
 An open-source validation toolkit for research data, measures, models, and programs.
 
 ## Live Application
