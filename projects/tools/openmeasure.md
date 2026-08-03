@@ -129,10 +129,10 @@ reliability analysis, interpretation, and transparent reporting.
 
 ### Program Evaluation Research Examples
 
-![Fairness](../../assets/img/openmeasure_programeval.png)
+![Program Evaluation](../../assets/img/openmeasure_program_eval.png)
 
 
-### Fairness Goals
+### Fairness Auditing Goals
 
 ![Fairness](../../assets/img/openmeasure-fairness.png)
 
