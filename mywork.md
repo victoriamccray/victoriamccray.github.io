@@ -16,13 +16,13 @@ I build data, AI/ML, and operational systems that help organizations make eviden
   AI-assisted workflow design, evaluation, and technical documentation.
   [View Project](/curricula/prompt-engineering/)
 
-- **Building Financial Operations for a Growing Nonprofit**
-  Operational systems, governance, budgeting, and financial documentation.
-  [View Project](/projects/operational-systems-nonprofit/)
-
 - **Open Science Neuro Hackathon**
   Curriculum development, open science, and international capacity building.
   [View Project](/curricula/open-science-neuro-hackathon/)
+
+- **Building Financial Operations for a Growing Nonprofit**
+  Operational systems, governance, budgeting, and financial documentation.
+  [View Project](/projects/operational-systems-nonprofit/)
 
 ## Research Highlights
 
