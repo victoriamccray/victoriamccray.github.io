@@ -40,7 +40,7 @@ OpenMeasure does not prescribe a single definition of fairness. Future modules w
 
 Supports evaluation of interventions using research designs and statistical methods appropriate to the program, population, and evaluation goals.
 
-**Available:** Program Evaluation v0.1
+**Available:** Impact Evaluation v0.1
 
 ## Design principles
 
@@ -92,23 +92,10 @@ and presentation consistent across the toolkit.
 
 
 ## Current release
-### Reliability v0.1
+- Reliability v0.1
+- Impact Evaluation v0.1
+- Fairness v0.05
 
-The first public release includes:
-
-- Cronbach's alpha
-- Corrected item-total correlations
-- Alpha if item dropped
-- Odd-even split-half reliability
-- Spearman-Brown correction
-- Listwise missing-data handling
-- Plain-language interpretation
-- Assumptions and limitations
-- 24 passing unit tests
-
-See `modules/reliability/README.md` for methodology and references.
-
-Future releases will expand OpenMeasure with data validation, model validation, and program evaluation modules.
 
 ### User Interface
 
