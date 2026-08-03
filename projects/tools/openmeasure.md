@@ -127,7 +127,7 @@ reliability analysis, interpretation, and transparent reporting.
 
 ![Assumptions](../../assets/img/openmeasure_assumptions.png)
 
-### Program Evaluation Research Examples
+### Research Examples
 
 ![Program Evaluation](../../assets/img/openmeasure_program_eval.png)
 
