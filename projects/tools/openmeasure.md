@@ -129,7 +129,7 @@ reliability analysis, interpretation, and transparent reporting.
 
 ### Fairness Goals
 
-![Fairness](../../assets/img/openmeasure_fairness.png)
+![Fairness](../../assets/img/openmeasure-fairness.png)
 
 
 ## Running tests
