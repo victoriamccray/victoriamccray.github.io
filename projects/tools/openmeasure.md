@@ -127,6 +127,11 @@ reliability analysis, interpretation, and transparent reporting.
 
 ![Assumptions](../../assets/img/openmeasure_assumptions.png)
 
+### Fairness Goals
+
+![Fairness](../../assets/img/openmeasure_fairness.png)
+
+
 ## Running tests
 
 ```bash
