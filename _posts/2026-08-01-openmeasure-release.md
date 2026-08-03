@@ -19,8 +19,8 @@ If you're willing to take a look, I'd especially appreciate feedback on:
 * Features that would make it more useful in your work
 * Ideas for future modules (data validation, model validation, program evaluation, or other validation workflows)
 
-Live demo: https://openmeasure.streamlit.app
+Live demo: [https://openmeasure.streamlit.app](https://openmeasure.streamlit.app)
 
-GitHub: https://github.com/victoriamccray/openmeasure
+GitHub: [https://github.com/victoriamccray/openmeasure](https://github.com/victoriamccray/openmeasure)
 
-More info: https://victoriamccray.github.io/projects/tools/openmeasure/
+More info: [https://victoriamccray.github.io/projects/tools/openmeasure/](https://victoriamccray.github.io/projects/tools/openmeasure/)
