@@ -36,7 +36,7 @@ My name is Victoria McCray, MSc, and I'm a bioinformatics researcher who thrives
 const docs = {
   resume: {
     view: "https://docs.google.com/gview?url=https://raw.githubusercontent.com/victoriamccray/victoriamccray.github.io/master/assets/img/Victoria_McCray_Resume_2026.docx.pdf&embedded=true",
-    download: "/assets/img/Victoria_McCray_Resume_2026.docx.pdf",
+    download: "assets/img/Victoria_McCray_Resume_AppliedScientist.pdf",
     text: "Download Resume"
   },
   cv: {
