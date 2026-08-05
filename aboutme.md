@@ -26,7 +26,7 @@ My name is Victoria McCray, MSc, and I'm a bioinformatics researcher who thrives
 
 <p>
   <a id="downloadLink"
-     href="/assets/img/Victoria_McCray_Resume_2026.docx.pdf"
+     href="assets/img/Victoria_McCray_Resume_AppliedScientist.pdf"
      download>
      Download Resume
   </a>
