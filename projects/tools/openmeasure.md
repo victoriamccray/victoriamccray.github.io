@@ -14,6 +14,14 @@ OpenMeasure is designed for researchers and practitioners working in community h
 
 [https://openmeasure.streamlit.app](https://openmeasure.streamlit.app)
 
+## Explore Real Data and Guided Research Journeys
+
+![Explore Data](../../assets/img/explore_data.png)
+
+![Wearables Signal Inspection](../../assets/img/wearables.png)
+
+![fMRI QC](../../assets/img/fmri_qc.png)
+
 ## Modules
 
 ### Measurement Validation
