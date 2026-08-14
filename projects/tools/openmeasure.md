@@ -14,6 +14,16 @@ OpenMeasure is designed for researchers and practitioners working in community h
 
 [https://openmeasure.streamlit.app](https://openmeasure.streamlit.app)
 
+## How to use OpenMeasure
+
+OpenMeasure can be used in two ways:
+
+### Learn with Research Journeys
+Work through real datasets step by step to see how validation decisions arise across the research workflow.
+
+### Apply to Your Research
+Use validation modules to identify appropriate checks, understand assumptions and tradeoffs, interpret results, and document decisions for your own analysis.
+
 ## Explore Real Data and Guided Research Journeys
 
 ![Explore Data](../../assets/img/explore_data.png)
