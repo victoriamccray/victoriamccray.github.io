@@ -16,7 +16,7 @@ OpenMeasure is designed for researchers and practitioners working in community h
 
 ## How to use OpenMeasure
 
-OpenMeasure can be used in two ways:
+OpenMeasure can be used in multiple ways:
 
 ### Learn with Research Journeys
 Work through real datasets step by step to see how validation decisions arise across the research workflow.
