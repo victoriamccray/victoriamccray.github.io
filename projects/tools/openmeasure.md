@@ -12,7 +12,7 @@ OpenMeasure is designed for researchers and practitioners working in community h
 
 ## Live Application
 
-[https://openmeasure.streamlit.app](https://openmeasure.streamlit.app)
+[https://victoriamccray.github.io/openmeasure/app.html](https://victoriamccray.github.io/openmeasure/app.html)
 
 ## How to use OpenMeasure
 
